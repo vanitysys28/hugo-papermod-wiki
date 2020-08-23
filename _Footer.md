@@ -1,0 +1,5 @@
+![Build GH-Pages](https://github.com/adityatelange/hugo-PaperMod/workflows/Build%20GH-Pages/badge.svg)
+![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/adityatelange/hugo-paperMod)
+![GitHub stars](https://img.shields.io/github/stars/adityatelange/hugo-paperMod?style=social)

@@ -1,0 +1,7 @@
+-   **[Home](./Home)**
+    -   [Installation](./Installation)
+    -   [Features](./Features)
+    -   [FAQs](./FAQs)
+    -   [Variables](./Variables)
+    -   [Icons](./Icons)
+-   **[ChangeLog](./ChangeLog)**
