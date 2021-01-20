@@ -3,16 +3,6 @@
 
 ## Social Icons
 
-Usage :
-
-```
-socialIcons: # optional
-    - name: "<NAME>"
-        url: "<link>"
-    - name: "<NAME>"
-        url: "<link2>"
-```
-
 | No. | name          | platform link                   |
 | --- | ------------- | ------------------------------- |
 | 1   | 123rf         | 123rf.com                       |
@@ -42,20 +32,32 @@ socialIcons: # optional
 | 25  | mastodon      | mastodon.social                 |
 | 26  | medium        | medium.com                      |
 | 27  | mixcloud      | mixcloud.com                    |
-| 28  | paypal        | paypal.com                      |
-| 29  | qq            | qq.com                          |
-| 30  | rss           | -                               |
-| 31  | soundcloud    | soundcloud.com                  |
-| 32  | shutterstock  | shutterstock.com                |
-| 33  | slack         | slack.com                       |
-| 34  | sourcerer     | sourcerer.io                    |
-| 35  | stackoverflow | stackoverflow.com               |
-| 36  | steam         | steampowered.com                |
-| 37  | telegram      | telegram.org                    |
-| 38  | twitch        | twitch.tv                       |
-| 39  | twitter       | twitter.com                     |
-| 40  | youtube       | youtube.com                     |
-| 41  | other         | -                               |
+| 28  | nuget         | nuget.org                       |
+| 29  | paypal        | paypal.com                      |
+| 30  | qq            | qq.com                          |
+| 31  | reddit        | reddit.com                      |
+| 32  | rss           | -                               |
+| 33  | soundcloud    | soundcloud.com                  |
+| 34  | shutterstock  | shutterstock.com                |
+| 35  | slack         | slack.com                       |
+| 36  | sourcerer     | sourcerer.io                    |
+| 37  | stackoverflow | stackoverflow.com               |
+| 38  | steam         | steampowered.com                |
+| 39  | telegram      | telegram.org                    |
+| 40  | twitch        | twitch.tv                       |
+| 41  | twitter       | twitter.com                     |
+| 42  | youtube       | youtube.com                     |
+| 43  | other         | -                               |
+
+Usage :
+
+```
+socialIcons: # optional
+    - name: "<NAME>"
+        url: "<link>"
+    - name: "<NAME>"
+        url: "<link2>"
+```
 
 ---
 

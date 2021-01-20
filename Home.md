@@ -2,36 +2,25 @@
 
 ## What is hugo-PaperMod ?
 
-This is a modified theme for [Hugo static site generator](https://gohugo.io/), modded from [hugo-paper](https://github.com/nanxiaobei/hugo-paper) by [nanxiaobei](https://github.com/nanxiaobei).
+Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper).
+The goal of this project is add more Features and customization to the og theme.
+
+The [demo site](https://adityatelange.github.io/hugo-PaperMod/) includes a lot of documentation about Installation, Features with few more stuff. Make sure you visit it, to get the awesome hands-on experience and get known about the features ...
+
+ExampleSite can be found here: [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with exampleSite as source.
 
 Demo Site : https://adityatelange.github.io/hugo-PaperMod/
 
 ---
 
-## Install
+## Quick Links
 
-Read Wiki => [hugo-PaperMod - Installation](./Installation)
+-   ### [hugo-PaperMod - Installation](./Installation)
 
----
+-   ### [hugo-PaperMod - Features](./Features)
 
-## Features/Mods
+-   ### [hugo-PaperMod - Icons](./Icons)
 
-Read Wiki => [hugo-PaperMod - Features](./Features)
+-   ### [hugo-PaperMod - FAQs](./FAQs)
 
----
-
-## Icons
-
-Read Wiki => [hugo-PaperMod - Icons](./Icons)
-
----
-
-## FAQs
-
-Read Wiki => [hugo-PaperMod - FAQs](./FAQs)
-
----
-
-## Variables
-
-Read Wiki => [hugo-PaperMod - Variables](./Variables)
+-   ### [hugo-PaperMod - Variables](./Variables)

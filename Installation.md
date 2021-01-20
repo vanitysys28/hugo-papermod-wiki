@@ -61,6 +61,20 @@ theme: "PaperMod"
 
 ---
 
+## Quick Links
+
+-   ### [PaperMod - Installation](./Installation)
+
+-   ### [PaperMod - Features](./Features)
+
+-   ### [PaperMod - Icons](./Icons)
+
+-   ### [PaperMod - FAQs](./FAQs)
+
+-   ### [PaperMod - Variables](./Variables)
+
+---
+
 ## Sample `config.yml`
 
 > **Example Site Structure is present here**: [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/)
@@ -71,7 +85,7 @@ theme: "PaperMod"
 baseURL: "https://examplesite.com"
 title: ExampleSite
 paginate: 5
-theme: hugo-PaperMod
+theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -90,18 +104,21 @@ params:
     description: "ExampleSite description"
     author: Me
     # author: ["Me", "You"] # multiple authors
-
     images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
 
     ShowReadingTime: true
     ShowShareButtons: true
-    comments: false
-    defaultTheme: auto
-    disableThemeToggle: false
     disableSpecial1stPost: false
+    comments: false
+    hidemeta: false
+    showtoc: false
+    tocopen: false
 
     assets:
-        # disableHLJS: true # to disable highlightjs
+        # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
         favicon: "<link / abs url>"
         favicon16x16: "<link / abs url>"
@@ -184,8 +201,8 @@ menu:
 ---
 title: "My 1st post"
 date: 2020-09-15T11:30:03+00:00
-weight: 1
-aliases: ["/first"]
+# weight: 1
+# aliases: ["/first"]
 tags: ["first"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
@@ -193,18 +210,19 @@ showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
+comments: false
+description: "Desc Text."
+disableHLJS: true # to disable highlightjs
 disableShare: false
+disableHLJS: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-comments: false
-description: "Desc Text."
-disableHLJS: true # to disable highlightjs
----
 
+---
 ```
 
 ---
