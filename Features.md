@@ -96,13 +96,13 @@ ex: [archives.md](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/
 
 ### Regular Mode (default-mode)
 
-![regular](images/regular.webp)
+![regular](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/posts/papermod/papermod-features/images/regular.jpg)
 
 ---
 
 ### Home-Info Mode
 
-![homeinfo](images/homeinfo.webp)
+![homeinfo](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/posts/papermod/papermod-features/images/homeinfo.jpg)
 
 Use 1st entry as some Information
 
@@ -127,7 +127,7 @@ ex. [config.yml#L106](https://github.com/adityatelange/hugo-PaperMod/blob/exampl
 
 ### Profile Mode
 
-![profile](images/profile.webp)
+![profile](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/posts/papermod/papermod-features/images/profile.jpg)
 
 Shows Index/Home page as Full Page with Social Links and Image
 
