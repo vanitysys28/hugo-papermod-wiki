@@ -15,12 +15,12 @@ Demo Site : https://adityatelange.github.io/hugo-PaperMod/
 
 ## Quick Links
 
--   ### [hugo-PaperMod - Installation](./Installation)
+-   ### [Installation](./Installation)
 
--   ### [hugo-PaperMod - Features](./Features)
+-   ### [Features](./Features)
 
--   ### [hugo-PaperMod - Icons](./Icons)
+-   ### [Icons](./Icons)
 
--   ### [hugo-PaperMod - FAQs](./FAQs)
+-   ### [FAQs](./FAQs)
 
--   ### [hugo-PaperMod - Variables](./Variables)
+-   ### [Variables](./Variables)

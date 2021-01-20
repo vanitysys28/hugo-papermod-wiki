@@ -63,15 +63,15 @@ theme: "PaperMod"
 
 ## Quick Links
 
--   ### [PaperMod - Installation](./Installation)
+-   ### [Installation](./Installation)
 
--   ### [PaperMod - Features](./Features)
+-   ### [Features](./Features)
 
--   ### [PaperMod - Icons](./Icons)
+-   ### [Icons](./Icons)
 
--   ### [PaperMod - FAQs](./FAQs)
+-   ### [FAQs](./FAQs)
 
--   ### [PaperMod - Variables](./Variables)
+-   ### [Variables](./Variables)
 
 ---
 
