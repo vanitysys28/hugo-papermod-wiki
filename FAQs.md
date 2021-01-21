@@ -9,6 +9,7 @@
 -   [Pin a Post](#pin-a-post)
 -   [Adding Custom Favicon(s)](#adding-custom-favicons)
 -   [Centering image in markdown](#centering-image-in-markdown)
+-   [Using Hugo's Syntax highlighter "chroma"](#using-hugos-syntax-highlighter-chroma)
 -   [References](#references)
 
 ---
@@ -268,6 +269,43 @@ Add `#center` after image to center align an image
 ```md
 ![name](path/to/image.png#center)
 ```
+
+---
+
+## Using Hugo's Syntax highlighter "chroma"
+
+1. Disable Highlight.js in site `config.yml`
+
+```yml
+params:
+    assets:
+        disableHLJS: true
+```
+
+2. Set hugo's markdown styling in site `config.yml`
+
+```yml
+markup:
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        # noClasses: false
+        style: monokai
+```
+
+3. If you want `lineNos: true`, the background won't be proper.
+
+Add the following to `assets/css/extended/custom.css`
+
+```css
+.chroma {
+    background-color: unset;
+}
+```
+
+More Info : [Configure Markup - Highlight](https://gohugo.io/getting-started/configuration-markup#highlight)
 
 ---
 
