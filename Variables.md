@@ -27,24 +27,48 @@
 | socialIcons                          |               |                          |                                                                                     |
 | analytics.google.SiteVerificationTag | string        | "XYZabc"                 |                                                                                     |
 |                                      |               |                          |                                                                                     |
-| label.text                           | string        | 'Home'                   | To display different label text other than title                                    |
-| label.icon                           | string        | '/apple-touch-icon.png'  | To display a logo image in label                                                    |
-| label.iconHeight                     | integer       | 35                       | To set size of label logo image                                                     |
-| assets.favicon                       | string        | 'icon.ico'               | To set favicon, can be path or external link                                        |
-| assets.disableHLJS                   |               |                          |                                                                                     |
-| assets.disableFingerprinting         |               |                          |                                                                                     |
-| cover.linkFullImages                 | boolean       | true \| false            | To open full size cover images on click on cover                                    |
-| cover.responsiveImages               | boolean       | true \| false            | To enable/disable generation of responsive cover images                             |
-| cover.hidden                         |               |                          |                                                                                     |
-| cover.hiddenInList                   |               |                          |                                                                                     |
-| cover.hiddenInSingle                 |               |                          |                                                                                     |
-| profileMode.enabled                  |               |                          |                                                                                     |
-| profileMode.title                    |               |                          |                                                                                     |
-| profileMode.imageUrl                 |               |                          |                                                                                     |
-| profileMode.imageWidth               |               |                          |                                                                                     |
-| profileMode.imageHeight              |               |                          |                                                                                     |
-| profileMode.imageTitle               |               |                          |                                                                                     |
-| profileMode.buttons                  |               |                          |                                                                                     |
+| label                                | -             | -                        | [Details](#label)                                                                   |
+| assets                               | -             | -                        | [Details](#assets)                                                                  |
+| cover                                | -             | -                        | [Details](#cover)                                                                   |
+| profileMode                          | -             | -                        | [Details](#profilemode)                                                             |
+
+#### label
+
+| name             | type    | example                 | Description                                      |
+| ---------------- | ------- | ----------------------- | ------------------------------------------------ |
+| label.text       | string  | 'Home'                  | To display different label text other than title |
+| label.icon       | string  | '/apple-touch-icon.png' | To display a logo image in label                 |
+| label.iconHeight | integer | 35                      | To set size of label logo image                  |
+
+#### profileMode
+
+| name                    | type | example | Description |
+| ----------------------- | ---- | ------- | ----------- |
+| profileMode.enabled     |      |         |             |
+| profileMode.title       |      |         |             |
+| profileMode.imageUrl    |      |         |             |
+| profileMode.imageWidth  |      |         |             |
+| profileMode.imageHeight |      |         |             |
+| profileMode.imageTitle  |      |         |             |
+| profileMode.buttons     |      |         |             |
+
+#### assets
+
+| name                         | type   | example    | Description                                  |
+| ---------------------------- | ------ | ---------- | -------------------------------------------- |
+| assets.favicon               | string | 'icon.ico' | To set favicon, can be path or external link |
+| assets.disableHLJS           |        |            |                                              |
+| assets.disableFingerprinting |        |            |                                              |
+
+#### cover
+
+| name                   | type    | example       | Description                                             |
+| ---------------------- | ------- | ------------- | ------------------------------------------------------- |
+| cover.linkFullImages   | boolean | true \| false | To open full size cover images on click on cover        |
+| cover.responsiveImages | boolean | true \| false | To enable/disable generation of responsive cover images |
+| cover.hidden           |         |               |                                                         |
+| cover.hiddenInList     |         |               |                                                         |
+| cover.hiddenInSingle   |         |               |                                                         |
 
 ---
 
