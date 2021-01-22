@@ -1,9 +1,11 @@
+## ToC
+
 -   [Social Icons](#social-icons)
 -   [Share Icons](#share-icons)
 
 ## Social Icons
 
-| No. | name          | platform link                   |
+| No. | Name          | Platform Link                   |
 | --- | ------------- | ------------------------------- |
 | 1   | 123rf         | 123rf.com                       |
 | 2   | adobestock    | stock.adobe.com                 |

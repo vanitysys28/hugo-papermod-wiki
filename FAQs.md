@@ -1,3 +1,5 @@
+## ToC
+
 -   [Intro](#intro)
 -   [Override theme template](#override-theme-template)
 -   [Enable Social-Metadata and SEO](#enable-social-metadata-and-seo)

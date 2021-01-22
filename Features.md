@@ -1,3 +1,5 @@
+## ToC
+
 -   [Assets (js/css)](#assets-jscss)
 -   [Default Theme light/dark/auto](#default-theme-lightdarkauto)
 -   [Theme Switch Toggle (enabled by default)](#theme-switch-toggle-enabled-by-default)
@@ -25,6 +27,14 @@
     -   [RSS feeds](#rss-feeds)
 
 View demo [here](https://adityatelange.github.io/hugo-PaperMod/)
+
+---
+
+## Intro
+
+-   **We'll be using `yml/yaml` format for all examples down below, I recommend using `yml` over `toml` as it is easier to read.**
+
+-   You can find any [YML to TOML](https://www.google.com/search?q=yml+to+toml) converters if necessary.
 
 ---
 

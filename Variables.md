@@ -1,3 +1,5 @@
+## ToC
+
 -   [Site Variables](#site-variables)
 -   [Page Variables](#page-variables)
 
