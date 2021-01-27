@@ -94,6 +94,7 @@ title: "Archive" # in any language you want
 layout: "archives" # is necessary
 url: "/archive"
 summary: "archive"
+# description: "Description for Archive"
 ---
 
 ```
@@ -186,6 +187,7 @@ Create a page with `search.md` in `content` directory with following content
 title: "Search" # in any language you want
 layout: "search" # is necessary
 # url: "/archive"
+# description: "Description for Search"
 summary: "search"
 ---
 
