@@ -22,10 +22,13 @@
 | hidemeta                             | boolean       | true \| false            | To Hide meta elements : date, read-time, author and available-translations for page |
 | showtoc                              | boolean       | true \| false            | To show/hide Table of Contents                                                      |
 | tocopen                              | boolean       | true \| false            | To keep open ToC by default on page load                                            |
+| ShowPostNavLinks                     | boolean       | true \| false            | Show Previous and Next Posts below a Post                                           |
 | comments                             | boolean       | true \| false            | To show/hide comments                                                               |
 | fuseOpts                             |               |                          |                                                                                     |
 | socialIcons                          |               |                          |                                                                                     |
 | analytics.google.SiteVerificationTag | string        | "XYZabc"                 |                                                                                     |
+| analytics.bing.SiteVerificationTag   | string        | "XYZabc"                 |                                                                                     |
+| analytics.yandex.SiteVerificationTag | string        | "XYZabc"                 |                                                                                     |
 |                                      |               |                          |                                                                                     |
 | label                                | -             | -                        | [Details](#label)                                                                   |
 | assets                               | -             | -                        | [Details](#assets)                                                                  |
