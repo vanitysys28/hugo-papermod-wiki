@@ -4,4 +4,5 @@
     -   **[FAQs](./FAQs)**
     -   **[Variables](./Variables)**
     -   **[Icons](./Icons)**
+    -   **[Translations](./Translations)**
 -   **[ChangeLog](./ChangeLog)**
