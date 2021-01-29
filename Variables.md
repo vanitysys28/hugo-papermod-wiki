@@ -23,6 +23,7 @@
 | showtoc                              | boolean       | true \| false            | To show/hide Table of Contents                                                      |
 | tocopen                              | boolean       | true \| false            | To keep open ToC by default on page load                                            |
 | ShowPostNavLinks                     | boolean       | true \| false            | Show Previous and Next Posts below a Post                                           |
+| ShowBreadCrumbs                      | boolean       | true \| false            | Show BreadCrumb Navigation above single post/page                                   |
 | comments                             | boolean       | true \| false            | To show/hide comments                                                               |
 | fuseOpts                             |               |                          |                                                                                     |
 | socialIcons                          |               |                          |                                                                                     |
@@ -77,20 +78,21 @@
 
 ### Page Variables
 
-| Name           | Type          | Example               | Description                                                                         |
-| -------------- | ------------- | --------------------- | ----------------------------------------------------------------------------------- |
-| showtoc        | boolean       | true \| false         | To show/hide Table of Contents                                                      |
-| tocopen        | boolean       | true \| false         | To keep open ToC by default on page load                                            |
-| hidemeta       | boolean       | true \| false         | To Hide meta elements : date, read-time, author and available-translations for page |
-| comments       | boolean       | true \| false         | To show/hide comments                                                               |
-| description    | string        | 'description text'    | Show Post Description under Title                                                   |
-| disableShare   | boolean       | true \| false         | To hide/show share icons under a page                                               |
-| disableHLJS    |               |                       |                                                                                     |
-| author         | string \|list | 'Me' \| ['Me','You']  | To show multiple Authors                                                            |
-| cover.image    | string        | 'featured.jpg'        | To add a cover image                                                                |
-| cover.caption  | string        | 'caption for image'   | To add caption to cover image                                                       |
-| cover.alt      | string        | 'this is cover image' | Alternate text to show if image doesn't load/show up                                |
-| cover.relative | boolean       | true \| false         | To use relative path for cover image, used in hugo Page-bundles                     |
-| cover.hidden   |               |                       |                                                                                     |
-|                |               |                       |                                                                                     |
-| weight         | integer       | 5                     | To set page order or to pin a post to Top of list                                   |
+| Name            | Type          | Example               | Description                                                                         |
+| --------------- | ------------- | --------------------- | ----------------------------------------------------------------------------------- |
+| showtoc         | boolean       | true \| false         | To show/hide Table of Contents                                                      |
+| tocopen         | boolean       | true \| false         | To keep open ToC by default on page load                                            |
+| hidemeta        | boolean       | true \| false         | To Hide meta elements : date, read-time, author and available-translations for page |
+| comments        | boolean       | true \| false         | To show/hide comments                                                               |
+| description     | string        | 'description text'    | Show Post Description under Title                                                   |
+| disableShare    | boolean       | true \| false         | To hide/show share icons under a page                                               |
+| disableHLJS     |               |                       |                                                                                     |
+| ShowBreadCrumbs | boolean       | true \| false         | Show BreadCrumb Navigation above single post/page                                   |
+| author          | string \|list | 'Me' \| ['Me','You']  | To show multiple Authors                                                            |
+| cover.image     | string        | 'featured.jpg'        | To add a cover image                                                                |
+| cover.caption   | string        | 'caption for image'   | To add caption to cover image                                                       |
+| cover.alt       | string        | 'this is cover image' | Alternate text to show if image doesn't load/show up                                |
+| cover.relative  | boolean       | true \| false         | To use relative path for cover image, used in hugo Page-bundles                     |
+| cover.hidden    |               |                       |                                                                                     |
+|                 |               |                       |                                                                                     |
+| weight          | integer       | 5                     | To set page order or to pin a post to Top of list                                   |
