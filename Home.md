@@ -15,7 +15,7 @@ Demo Site : https://adityatelange.github.io/hugo-PaperMod/
 
 ## Quick Links
 
--   ### [Installation](./Installation)
+-   ### [Install / Update](./Installation)
 
 -   ### [Features](./Features)
 
@@ -24,3 +24,7 @@ Demo Site : https://adityatelange.github.io/hugo-PaperMod/
 -   ### [FAQs](./FAQs)
 
 -   ### [Variables](./Variables)
+
+-   ### [Translations](./Translations)
+
+-   ### [ChangeLog](./ChangeLog)

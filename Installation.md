@@ -73,8 +73,6 @@ theme: "PaperMod"
 
 ## Quick Links
 
--   ### [Installation](./Installation)
-
 -   ### [Features](./Features)
 
 -   ### [Icons](./Icons)
@@ -82,6 +80,10 @@ theme: "PaperMod"
 -   ### [FAQs](./FAQs)
 
 -   ### [Variables](./Variables)
+
+-   ### [Translations](./Translations)
+
+-   ### [ChangeLog](./ChangeLog)
 
 ---
 
@@ -234,6 +236,7 @@ description: "Desc Text."
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
+searchHidden: true
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
@@ -242,6 +245,12 @@ cover:
     hidden: true # only hide on current single page
 
 ---
+```
+
+You can use it by creating `archetypes/post.md`
+
+```shell
+hugo new --kind post <name>
 ```
 
 ---

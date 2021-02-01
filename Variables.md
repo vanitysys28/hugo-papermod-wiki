@@ -25,12 +25,12 @@
 | ShowPostNavLinks                     | boolean       | true \| false            | Show Previous and Next Posts below a Post                                           |
 | ShowBreadCrumbs                      | boolean       | true \| false            | Show BreadCrumb Navigation above single post/page                                   |
 | comments                             | boolean       | true \| false            | To show/hide comments                                                               |
-| fuseOpts                             |               |                          |                                                                                     |
-| socialIcons                          |               |                          |                                                                                     |
-| analytics.google.SiteVerificationTag | string        | "XYZabc"                 |                                                                                     |
-| analytics.bing.SiteVerificationTag   | string        | "XYZabc"                 |                                                                                     |
-| analytics.yandex.SiteVerificationTag | string        | "XYZabc"                 |                                                                                     |
+| analytics.google.SiteVerificationTag | string        | "XYZabc"                 | Site Verification Tag for Google Analytics                                          |
+| analytics.bing.SiteVerificationTag   | string        | "XYZabc"                 | Site Verification Tag for Bing                                                      |
+| analytics.yandex.SiteVerificationTag | string        | "XYZabc"                 | Site Verification Tag for Yandex                                                    |
 |                                      |               |                          |                                                                                     |
+| fuseOpts                             | -             | -                        | [Details](#fuseOpts)                                                                |
+| socialIcons                          | -             | -                        | [Details](#socialIcons)                                                             |
 | label                                | -             | -                        | [Details](#label)                                                                   |
 | assets                               | -             | -                        | [Details](#assets)                                                                  |
 | cover                                | -             | -                        | [Details](#cover)                                                                   |
@@ -46,23 +46,23 @@
 
 #### profileMode
 
-| name                    | type | example | Description |
-| ----------------------- | ---- | ------- | ----------- |
-| profileMode.enabled     |      |         |             |
-| profileMode.title       |      |         |             |
-| profileMode.imageUrl    |      |         |             |
-| profileMode.imageWidth  |      |         |             |
-| profileMode.imageHeight |      |         |             |
-| profileMode.imageTitle  |      |         |             |
-| profileMode.buttons     |      |         |             |
+| name                    | type    | example                                        | Description |
+| ----------------------- | ------- | ---------------------------------------------- | ----------- |
+| profileMode.enabled     | boolean | true \| false                                  |             |
+| profileMode.title       | string  | "Title"                                        |             |
+| profileMode.imageUrl    | string  | "image.png" \| "https://example.com/image.jpg" |             |
+| profileMode.imageWidth  | string  | ""                                             |             |
+| profileMode.imageHeight | string  | ""                                             |             |
+| profileMode.imageTitle  | string  | "This image is a picture of .."                |             |
+| profileMode.buttons     | -       | -                                              |             |
 
 #### assets
 
-| name                         | type   | example    | Description                                  |
-| ---------------------------- | ------ | ---------- | -------------------------------------------- |
-| assets.favicon               | string | 'icon.ico' | To set favicon, can be path or external link |
-| assets.disableHLJS           |        |            |                                              |
-| assets.disableFingerprinting |        |            |                                              |
+| name                         | type    | example    | Description                                  |
+| ---------------------------- | ------- | ---------- | -------------------------------------------- |
+| assets.favicon               | string  | 'icon.ico' | To set favicon, can be path or external link |
+| assets.disableHLJS           | boolean |            |                                              |
+| assets.disableFingerprinting | boolean |            |                                              |
 
 #### cover
 
@@ -70,9 +70,43 @@
 | ---------------------- | ------- | ------------- | ------------------------------------------------------- |
 | cover.linkFullImages   | boolean | true \| false | To open full size cover images on click on cover        |
 | cover.responsiveImages | boolean | true \| false | To enable/disable generation of responsive cover images |
-| cover.hidden           |         |               |                                                         |
-| cover.hiddenInList     |         |               |                                                         |
-| cover.hiddenInSingle   |         |               |                                                         |
+| cover.hidden           | boolean | true \| fals  |                                                         |
+| cover.hiddenInList     | boolean | true \| fals  |                                                         |
+| cover.hiddenInSingle   | boolean | true \| fals  |                                                         |
+
+#### fuseOpts
+
+```yml
+fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"] ##  can be less but not more than shown in list
+```
+
+#### socialIcons
+
+```yml
+socialIcons:
+    - name: "<platform>"
+        url: "<link>"
+    - name: "<platform 2>"
+        url: "<link2>"
+```
+
+####
+
+```yml
+profileMode:
+    buttons:
+        - name: Archive
+        url: "/archive"
+        - name: Github
+        url: "https://github.com/"
+```
 
 ---
 
@@ -86,13 +120,14 @@
 | comments        | boolean       | true \| false         | To show/hide comments                                                               |
 | description     | string        | 'description text'    | Show Post Description under Title                                                   |
 | disableShare    | boolean       | true \| false         | To hide/show share icons under a page                                               |
-| disableHLJS     |               |                       |                                                                                     |
+| disableHLJS     | boolean       | true \| false         |                                                                                     |
+| searchHidden    | boolean       | true \| false         |                                                                                     |
 | ShowBreadCrumbs | boolean       | true \| false         | Show BreadCrumb Navigation above single post/page                                   |
 | author          | string \|list | 'Me' \| ['Me','You']  | To show multiple Authors                                                            |
 | cover.image     | string        | 'featured.jpg'        | To add a cover image                                                                |
 | cover.caption   | string        | 'caption for image'   | To add caption to cover image                                                       |
 | cover.alt       | string        | 'this is cover image' | Alternate text to show if image doesn't load/show up                                |
 | cover.relative  | boolean       | true \| false         | To use relative path for cover image, used in hugo Page-bundles                     |
-| cover.hidden    |               |                       |                                                                                     |
+| cover.hidden    | boolean       | true \| false         |                                                                                     |
 |                 |               |                       |                                                                                     |
 | weight          | integer       | 5                     | To set page order or to pin a post to Top of list                                   |

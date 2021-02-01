@@ -13,6 +13,8 @@
 -   [Share Buttons on post](#share-buttons-on-post)
 -   [Show post reading time](#show-post-reading-time)
 -   [Show Table of Contents (Toc) on blog post](#show-table-of-contents-toc-on-blog-post)
+-   [BreadCrumb Navigation](#breadcrumb-navigation)
+-   [Other Posts suggestion below a post](#other-posts-suggestion-below-a-post)
 -   [Multiple Authors](#multiple-authors)
 -   [Comments](#comments)
 -   [AccessKeys](#accesskeys)
@@ -88,13 +90,25 @@ You can refer following table for better understanding...
 
 Create a page with `archive.md` in `content` directory with following content
 
+```shell
+.
+├── config.yml
+├── content/
+│   ├── archives.md   <--- Create archive.md here
+│   └── posts/
+├── static/
+└── themes/
+    └── PaperMod/
+```
+
+and add the following to it
+
 ```yml
 ---
-title: "Archive" # in any language you want
-layout: "archives" # is necessary
-url: "/archive"
-summary: "archive"
-# description: "Description for Archive"
+title: "Archive"
+layout: "archives"
+url: "/archives/"
+summary: archives
 ---
 
 ```
@@ -170,6 +184,8 @@ params:
 
 ### Search
 
+PaperMod uses [Fuse.js Basic](https://fusejs.io/getting-started/different-builds.html#explanation-of-different-builds) for seach functionality
+
 Add the following to site config, `config.yml`
 
 ```yml
@@ -193,6 +209,15 @@ summary: "search"
 
 ```
 
+To hide a particular page from being searched, add it in post's fron't matter
+
+```yml
+---
+searchHidden: true
+```
+
+ex: [search.md](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/search.md)
+
 For Multilingual use `search.<lang>.md` ex. `search.es.md`.
 
 **Note:** Search will work only on current language, user is currently on !
@@ -212,8 +237,6 @@ params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
 ```
-
-ex: [search.md](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/search.md)
 
 ---
 
@@ -300,6 +323,33 @@ TocOpen: true
 ```
 
 ---
+
+### BreadCrumb Navigation
+
+Adds BreadCrumb Navigation above Post's Title to show subsections and Navigation to Home
+
+```yml
+params:
+    ShowBreadCrumbs: true
+```
+
+Can be diabled for particular page's front-matter
+
+```yml
+---
+ShowBreadCrumbs: false
+---
+
+```
+
+### Other Posts suggestion below a post
+
+Adds a Previous / Next post suggestion under a single post
+
+```yml
+params:
+    ShowPostNavLinks: true
+```
 
 ### Multiple Authors
 

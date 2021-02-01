@@ -1,5 +1,5 @@
 -   **[Home](./Home)**
-    -   **[Installation](./Installation)**
+    -   **[Install / Update](./Installation)**
     -   **[Features](./Features)**
     -   **[FAQs](./FAQs)**
     -   **[Variables](./Variables)**
