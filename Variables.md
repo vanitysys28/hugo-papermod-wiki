@@ -55,7 +55,7 @@
 | profileMode.imageWidth  | string  | "150"                                          | Width of image                                       |
 | profileMode.imageHeight | string  | "150"                                          | Height of image                                      |
 | profileMode.imageTitle  | string  | "This image is a picture of .."                | Title of image                                       |
-| profileMode.buttons     | -       | -                                              | [Details](#profileModebuttons)                      |
+| profileMode.buttons     | -       | -                                              | [Details](#profileModebuttons)                       |
 
 #### assets
 
@@ -71,9 +71,9 @@
 | ---------------------- | ------- | ------------- | ------------------------------------------------------- |
 | cover.linkFullImages   | boolean | true \| false | To open full size cover images on click on cover        |
 | cover.responsiveImages | boolean | true \| false | To enable/disable generation of responsive cover images |
-| cover.hidden           | boolean | true \| fals  |                                                         |
-| cover.hiddenInList     | boolean | true \| fals  |                                                         |
-| cover.hiddenInSingle   | boolean | true \| fals  |                                                         |
+| cover.hidden           | boolean | true \| false |                                                         |
+| cover.hiddenInList     | boolean | true \| false |                                                         |
+| cover.hiddenInSingle   | boolean | true \| false |                                                         |
 
 #### fuseOpts
 
