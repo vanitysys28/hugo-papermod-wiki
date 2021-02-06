@@ -95,8 +95,8 @@ Create folder in yout project directory as
 └── assets/
     └── css/
         └── extended/  <---
-        │   ├── custom_css1.css <---
-        │   └── any_name.css   <---
+            ├── custom_css1.css <---
+            └── any_name.css   <---
 ```
 
 All `css` files inside `assets/css/extended` will be bundled !
