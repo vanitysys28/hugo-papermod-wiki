@@ -55,7 +55,7 @@
 | profileMode.imageWidth  | string  | "150"                                          | Width of image                                       |
 | profileMode.imageHeight | string  | "150"                                          | Height of image                                      |
 | profileMode.imageTitle  | string  | "This image is a picture of .."                | Title of image                                       |
-| profileMode.buttons     | -       | -                                              | [Details](#profileMode.buttons)                      |
+| profileMode.buttons     | -       | -                                              | [Details](#profileModebuttons)                      |
 
 #### assets
 
