@@ -46,15 +46,16 @@
 
 #### profileMode
 
-| name                    | type    | example                                        | Description |
-| ----------------------- | ------- | ---------------------------------------------- | ----------- |
-| profileMode.enabled     | boolean | true \| false                                  |             |
-| profileMode.title       | string  | "Title"                                        |             |
-| profileMode.imageUrl    | string  | "image.png" \| "https://example.com/image.jpg" |             |
-| profileMode.imageWidth  | string  | ""                                             |             |
-| profileMode.imageHeight | string  | ""                                             |             |
-| profileMode.imageTitle  | string  | "This image is a picture of .."                |             |
-| profileMode.buttons     | -       | -                                              |             |
+| name                    | type    | example                                        | Description                                          |
+| ----------------------- | ------- | ---------------------------------------------- | ---------------------------------------------------- |
+| profileMode.enabled     | boolean | true \| false                                  | For enabling profileMode, needs to be explicitly set |
+| profileMode.title       | string  | "Title"                                        | Title                                                |
+| profileMode.subtitle    | string  | "subtitle here"                                | Subtitle                                             |
+| profileMode.imageUrl    | string  | "image.png" \| "https://example.com/image.jpg" | Image URL or Link                                    |
+| profileMode.imageWidth  | string  | "150"                                          | Width of image                                       |
+| profileMode.imageHeight | string  | "150"                                          | Height of image                                      |
+| profileMode.imageTitle  | string  | "This image is a picture of .."                | Title of image                                       |
+| profileMode.buttons     | -       | -                                              | [Details](#profileMode.buttons)                      |
 
 #### assets
 
@@ -97,7 +98,7 @@ socialIcons:
         url: "<link2>"
 ```
 
-####
+#### profileMode.buttons
 
 ```yml
 profileMode:
