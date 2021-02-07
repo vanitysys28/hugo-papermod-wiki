@@ -7,7 +7,7 @@
 -   [Regular Mode (default-mode)](#regular-mode-default-mode)
 -   [Home-Info Mode](#home-info-mode)
 -   [Profile Mode](#profile-mode)
--   [Search](#search)
+-   [Search Page](#search-page)
 -   [Draft Page indication](#draft-page-indication)
 -   [Post Cover Image](#post-cover-image)
 -   [Share Buttons on post](#share-buttons-on-post)
@@ -183,7 +183,7 @@ params:
 
 ---
 
-### Search
+### Search Page
 
 PaperMod uses [Fuse.js Basic](https://fusejs.io/getting-started/different-builds.html#explanation-of-different-builds) for seach functionality
 
@@ -218,6 +218,12 @@ searchHidden: true
 ```
 
 ex: [search.md](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/search.md)
+
+> Search Page also has Key bindings:
+>
+> -   Arrow keys to move up/down the list
+> -   Enter key (return) or Right Arrow key to Go to highlighted page
+> -   Escape key to clear searchbox and results
 
 For Multilingual use `search.<lang>.md` ex. `search.es.md`.
 
@@ -343,6 +349,8 @@ ShowBreadCrumbs: false
 
 ```
 
+---
+
 ### Other Posts suggestion below a post
 
 Adds a Previous / Next post suggestion under a single post
@@ -351,6 +359,8 @@ Adds a Previous / Next post suggestion under a single post
 params:
     ShowPostNavLinks: true
 ```
+
+---
 
 ### Multiple Authors
 

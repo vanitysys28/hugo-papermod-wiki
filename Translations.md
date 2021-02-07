@@ -19,6 +19,8 @@
 
 ## Want to add your Language ?
 
+Fork the theme, add `langcode.yaml` and submit a Pull Request.
+
 Sample `langcode.yaml`
 
 ISO codes can be found here: https://www.w3schools.com/tags/ref_language_codes.asp

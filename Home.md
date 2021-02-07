@@ -1,6 +1,4 @@
-# Welcome to the hugo-PaperMod wiki!
-
-## What is hugo-PaperMod ?
+# Welcome to the PaperMod's wiki!
 
 Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper).
 The goal of this project is add more Features and customization to the og theme.
