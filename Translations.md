@@ -3,6 +3,7 @@
 | Name       | ISO Code | Available Translations                                   |
 | ---------- | -------- | -------------------------------------------------------- |
 | Bulgarian  | bg       | prev_page, next_page, read_time, toc, translations       |
+| Catalan    | ca       | prev_page, next_page, read_time, toc, translations, home |
 | German     | de       | prev_page, next_page, read_time, toc, translations       |
 | English    | en       | prev_page, next_page, read_time, toc, translations, home |
 | Spanish    | es       | prev_page, next_page, read_time, toc, translations       |
