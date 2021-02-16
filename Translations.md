@@ -16,6 +16,7 @@
 | Japanese   | ja       | prev_page, next_page, read_time, toc, translations       |
 | Korean     | ko       | prev_page, next_page                                     |
 | Russian    | ru       | prev_page, next_page, read_time, toc, translations       |
+| Uzbek      | uz       | prev_page, next_page, read_time, toc, translations, home |
 | Chinese    | zh       | prev_page, next_page, read_time, toc, translations       |
 
 ## Want to add your Language ?
