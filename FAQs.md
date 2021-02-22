@@ -244,6 +244,16 @@ Add `#center` after image to center align an image
 ![name](path/to/image.png#center)
 ```
 
+**When using [`figure`](https://gohugo.io/content-management/shortcodes/) shortcode**
+
+use `align=center` to center image with captions
+
+ex. 
+
+```md
+{{< figure align=center src="image.jpg" >}}
+```
+
 ---
 
 ## Using Hugo's Syntax highlighter "chroma"
