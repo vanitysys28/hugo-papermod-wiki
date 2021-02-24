@@ -7,33 +7,34 @@
 
 ### Site Variables under `Params`
 
-| name                                   | type          | example                  | Description                                                                         |
-| -------------------------------------- | ------------- | ------------------------ | ----------------------------------------------------------------------------------- |
-| `env`                                  | string        | 'production'             | To set env to production                                                            |
-| `title`                                | string        | 'My Blog'                | To set title                                                                        |
-| `description`                          | string        | 'This is a blog of mine' | To set site description                                                             |
-| `author`                               | string \|list | 'Me' \| ['Me','You']     | To show multiple Authors                                                            |
-| `images`                               | string        | 'myimage.png'            | Link or path of image for opengraph, twitter-cards                                  |
-| `ShowReadingTime`                      | boolean       | true \| false            | To show read time in post meta                                                      |
-| `ShowShareButtons`                     | boolean       | true \| false            | To show/hide share buttons under post                                               |
-| `defaultTheme`                         | string        | light \| dark \| auto    | To set default theme                                                                |
-| `disableThemeToggle`                   | boolean       | true \| false            | To disable theme toggle icon shown besides label                                    |
-| `disableSpecial1stPost`                | boolean       | true \| false            | To disable no-card special appearance of 1st post                                   |
-| `hidemeta`                             | boolean       | true \| false            | To Hide meta elements : date, read-time, author and available-translations for page |
-| `showtoc`                              | boolean       | true \| false            | To show/hide Table of Contents                                                      |
-| `tocopen`                              | boolean       | true \| false            | To keep open ToC by default on page load                                            |
-| `ShowPostNavLinks`                     | boolean       | true \| false            | Show Previous and Next Posts below a Post                                           |
-| `ShowBreadCrumbs`                      | boolean       | true \| false            | Show BreadCrumb Navigation above single post/page                                   |
-| `comments`                             | boolean       | true \| false            | To show/hide comments                                                               |
-| `analytics.google.SiteVerificationTag` | string        | "XYZabc"                 | Site Verification Tag for Google Analytics                                          |
-| `analytics.bing.SiteVerificationTag`   | string        | "XYZabc"                 | Site Verification Tag for Bing                                                      |
-| `analytics.yandex.SiteVerificationTag` | string        | "XYZabc"                 | Site Verification Tag for Yandex                                                    |
-| `fuseOpts`                             | -             | -                        | [Details](#fuseOpts)                                                                |
-| `socialIcons`                          | -             | -                        | [Details](#socialIcons)                                                             |
-| `label`                                | -             | -                        | [Details](#label)                                                                   |
-| `assets`                               | -             | -                        | [Details](#assets)                                                                  |
-| `cover`                                | -             | -                        | [Details](#cover)                                                                   |
-| `profileMode`                          | -             | -                        | [Details](#profilemode)                                                             |
+| name                                   | type          | example                  | Description                                                                               |
+| -------------------------------------- | ------------- | ------------------------ | ----------------------------------------------------------------------------------------- |
+| `env`                                  | string        | 'production'             | To set env to production                                                                  |
+| `title`                                | string        | 'My Blog'                | To set title                                                                              |
+| `description`                          | string        | 'This is a blog of mine' | To set site description                                                                   |
+| `author`                               | string \|list | 'Me' \| ['Me','You']     | To show multiple Authors                                                                  |
+| `images`                               | string        | 'myimage.png'            | Link or path of image for opengraph, twitter-cards                                        |
+| `DateFormat`                           | string        | "January 2, 2006"        | The format of date strings in the website. [Details](https://gohugo.io/functions/format/) |
+| `ShowReadingTime`                      | boolean       | true \| false            | To show read time in post meta                                                            |
+| `ShowShareButtons`                     | boolean       | true \| false            | To show/hide share buttons under post                                                     |
+| `defaultTheme`                         | string        | light \| dark \| auto    | To set default theme                                                                      |
+| `disableThemeToggle`                   | boolean       | true \| false            | To disable theme toggle icon shown besides label                                          |
+| `disableSpecial1stPost`                | boolean       | true \| false            | To disable no-card special appearance of 1st post                                         |
+| `hidemeta`                             | boolean       | true \| false            | To Hide meta elements : date, read-time, author and available-translations for page       |
+| `showtoc`                              | boolean       | true \| false            | To show/hide Table of Contents                                                            |
+| `tocopen`                              | boolean       | true \| false            | To keep open ToC by default on page load                                                  |
+| `ShowPostNavLinks`                     | boolean       | true \| false            | Show Previous and Next Posts below a Post                                                 |
+| `ShowBreadCrumbs`                      | boolean       | true \| false            | Show BreadCrumb Navigation above single post/page                                         |
+| `comments`                             | boolean       | true \| false            | To show/hide comments                                                                     |
+| `analytics.google.SiteVerificationTag` | string        | "XYZabc"                 | Site Verification Tag for Google Analytics                                                |
+| `analytics.bing.SiteVerificationTag`   | string        | "XYZabc"                 | Site Verification Tag for Bing                                                            |
+| `analytics.yandex.SiteVerificationTag` | string        | "XYZabc"                 | Site Verification Tag for Yandex                                                          |
+| `fuseOpts`                             | -             | -                        | [Details](#fuseOpts)                                                                      |
+| `socialIcons`                          | -             | -                        | [Details](#socialIcons)                                                                   |
+| `label`                                | -             | -                        | [Details](#label)                                                                         |
+| `assets`                               | -             | -                        | [Details](#assets)                                                                        |
+| `cover`                                | -             | -                        | [Details](#cover)                                                                         |
+| `profileMode`                          | -             | -                        | [Details](#profilemode)                                                                   |
 
 #### label
 
