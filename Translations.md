@@ -2,6 +2,7 @@
 
 | Name       | ISO Code | Available Translations                                   |
 | ---------- | -------- | -------------------------------------------------------- |
+| Arabic     | ar       | prev_page, next_page, read_time, toc, translations, home |
 | Bulgarian  | bg       | prev_page, next_page, read_time, toc, translations       |
 | Catalan    | ca       | prev_page, next_page, read_time, toc, translations, home |
 | German     | de       | prev_page, next_page, read_time, toc, translations       |
@@ -9,6 +10,7 @@
 | Spanish    | es       | prev_page, next_page, read_time, toc, translations       |
 | Farsi      | fa       | prev_page, next_page, read_time, toc, translations       |
 | French     | fr       | prev_page, next_page                                     |
+| Hebrew     | he       | prev_page, next_page, read_time, toc, translations, home |
 | Hindi      | hi       | prev_page, next_page, read_time, toc, translations       |
 | Hungarian  | hu       | prev_page, next_page, read_time, toc, translations       |
 | Indonesian | id       | prev_page, next_page, read_time, toc, translations       |
