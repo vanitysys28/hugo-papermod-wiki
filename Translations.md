@@ -17,6 +17,7 @@
 | Italian    | it       | prev_page, next_page, read_time, toc, translations       |
 | Japanese   | ja       | prev_page, next_page, read_time, toc, translations       |
 | Korean     | ko       | prev_page, next_page                                     |
+| Portuguese | pt       | prev_page, next_page, read_time, toc, translations       |
 | Russian    | ru       | prev_page, next_page, read_time, toc, translations       |
 | Uzbek      | uz       | prev_page, next_page, read_time, toc, translations, home |
 | Chinese    | zh       | prev_page, next_page, read_time, toc, translations       |
