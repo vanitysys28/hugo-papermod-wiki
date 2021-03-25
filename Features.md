@@ -14,6 +14,7 @@
 -   [Show post reading time](#show-post-reading-time)
 -   [Show Table of Contents (Toc) on blog post](#show-table-of-contents-toc-on-blog-post)
 -   [BreadCrumb Navigation](#breadcrumb-navigation)
+-   [Edit Link for Posts](#edit-link-for-posts)
 -   [Other Posts suggestion below a post](#other-posts-suggestion-below-a-post)
 -   [Multiple Authors](#multiple-authors)
 -   [Comments](#comments)
@@ -348,6 +349,47 @@ ShowBreadCrumbs: false
 ---
 
 ```
+
+---
+
+### Edit Link for Posts
+
+Add a button to suggest changes by using the file path of the post to link to a edit destination.
+
+For site config use:
+
+```yml
+Params:
+    editPost:
+        URL: "https://github.com/<path_to_repo>/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+```
+
+Can be modified for individual pages
+
+```yml
+---
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+---
+
+```
+
+The example above would yield the following link for the post file `posts/post-name.md`:
+https://github.com/<path_to_repo>/content/posts/post-name.md
+
+| Parameter               | Required | Default Value |
+| ----------------------- | -------- | ------------- |
+| editPost.URL            | true     | -             |
+| editPost.appendFilePath | false    | false         |
+| editPost.Text           | false    | "Edit"        |
+
+Since the link generated is a regular HTML anchor tag `<a href=...>`, you can
+also use other URL schemas like `mailto://`, e.g.
+`URL: "mailto://mail@example.com?subject=Suggesting changes for "`
 
 ---
 
