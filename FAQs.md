@@ -248,7 +248,7 @@ Add `#center` after image to center align an image
 
 use `align=center` to center image with captions
 
-ex. 
+ex.
 
 ```md
 {{< figure align=center src="image.jpg" >}}
@@ -292,6 +292,24 @@ ex.
     ```
 
     More Info : [Configure Markup - Highlight](https://gohugo.io/getting-started/configuration-markup#highlight)
+
+---
+
+## Search not working ?
+
+If you are using a CDN to server assets from a different domain, search would break
+
+Why? Take a look at [fastsearch.js#L35](https://github.com/adityatelange/hugo-PaperMod/blob/fb4988cfb6d0d6e4e489f17d89f0fa618def3396/assets/js/fastsearch.js#L35).
+
+We fetch the `index.json` (where the search function looks for the keywords typed) one level up of the website `search.min.js` is hosted on.
+
+We have used this insted of assigning `baseURL` so as to work with multilingual websites ex. `example.com/fr/` and websites being placed under a subdirectory ex. `example.com/blog/`.
+
+To fix for _single_ language websites hosting assets from CDN, this you may [override](#override-theme-template) [fastsearch.js#L35](https://github.com/adityatelange/hugo-PaperMod/blob/fb4988cfb6d0d6e4e489f17d89f0fa618def3396/assets/js/fastsearch.js#L35) and placing appropriate URL as in
+
+```js
+xhr.open("GET", "https://example.com/index.json");
+```
 
 ---
 
