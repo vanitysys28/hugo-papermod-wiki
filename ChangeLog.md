@@ -1,11 +1,33 @@
 ## ToC
 
+-   [v5.0](#v50)
 -   [v4.0](#v40)
 -   [v3.0](#v30)
 -   [v2.0](#v20)
 -   [v1.0](#v10)
 
 ---
+
+### v5.0
+
+[Compare v4.0...v5.0](https://github.com/adityatelange/hugo-PaperMod/compare/v4.0...v5.0)
+
+-   Add Feature `ShowPostNavLinks` - shows Prev Next post links on single post page
+-   Add Feature `BreadCrumbNavigation` - adds Breadcrumb navigation above title of single page/post
+-   Add feature `editPost` - adds option to show link in meta data for editing posts
+-   Add support for `rtl` and `ltr` shortcodes
+-   Add Translations of `Japanese`, `Hungarian`, `Catalan`, `Uzbek`, `Hebrew`, `Arabic`, `Portuguese`
+-   Add social icons of `snapchat`, `gitea`, `unsplash`, `itchio`, `ctftime`
+-   Add browser-level lazy-loading of images
+-   Improve overall design to fit Prev Next post links and remove borders
+-   Improve scrollbar styling
+-   Tweak Fuse options for search
+-   Improve theme changes when JS is disabled
+-   Fix code highlight when HLJS is disabled
+-   Fix colors in embeded gist
+-   Fix `...` being shown for smaller summary in posts
+-   Update internal templates from hugo
+-   Miscellaneous improvements, fixes and accessibility enhancements
 
 ### v4.0
 
