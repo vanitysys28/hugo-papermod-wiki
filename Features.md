@@ -16,6 +16,7 @@
 -   [BreadCrumb Navigation](#breadcrumb-navigation)
 -   [Edit Link for Posts](#edit-link-for-posts)
 -   [Other Posts suggestion below a post](#other-posts-suggestion-below-a-post)
+-   [Code Copy Button](#code-copy-button)
 -   [Multiple Authors](#multiple-authors)
 -   [Comments](#comments)
 -   [AccessKeys](#accesskeys)
@@ -400,6 +401,21 @@ Adds a Previous / Next post suggestion under a single post
 ```yml
 params:
     ShowPostNavLinks: true
+```
+
+---
+
+### Code Copy Button
+
+Adds a `copy` button in code block to copy the code it contains
+
+-   Enabled by default.
+
+To disable use
+
+```yml
+params:
+    disableCodeCopy: true
 ```
 
 ---

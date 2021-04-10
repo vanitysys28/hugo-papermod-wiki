@@ -22,6 +22,7 @@
 | `disableThemeToggle`                   | boolean       | true \| false            | To disable theme toggle icon shown besides label                                          |
 | `disableSpecial1stPost`                | boolean       | true \| false            | To disable no-card special appearance of 1st post                                         |
 | `disableScrollToTop`                   | boolean       | true \| false            | To disable ScrollToTop button                                                             |
+| `disableCodeCopy`                      | boolean       | true \| false            | To disable Code Copy button                                                               |
 | `hideMeta`                             | boolean       | true \| false            | To Hide meta elements : date, read-time, author and available-translations for page       |
 | `hideSummary`                          | boolean       | true \| false            | To Hide summary being shown in list pages                                                 |
 | `showtoc`                              | boolean       | true \| false            | To show/hide Table of Contents                                                            |
