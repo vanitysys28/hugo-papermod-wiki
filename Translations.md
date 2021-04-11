@@ -51,6 +51,9 @@ ISO codes can be found here: https://www.w3schools.com/tags/ref_language_codes.a
 - id: home
   translation: "Home"
 
+- id: edit_post
+  translation: "Edit"
+
 - id: code_copy
   translation: "copy"
 
