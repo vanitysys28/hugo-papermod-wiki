@@ -16,13 +16,14 @@
 | `images`                               | string        | 'myimage.png'            | Link or path of image for opengraph, twitter-cards                                        |
 | `keywords`                             | list          | [blog, page]             | Add keywords for Home page                                                                |
 | `DateFormat`                           | string        | "January 2, 2006"        | The format of date strings in the website. [Details](https://gohugo.io/functions/format/) |
+| `languageAltTitle`                     | string        | "English"                | Alternate title in Multilingual Mode                                                      |
 | `ShowReadingTime`                      | boolean       | true \| false            | To show read time in post meta                                                            |
 | `ShowShareButtons`                     | boolean       | true \| false            | To show/hide share buttons under post                                                     |
+| `ShowCodeCopyButtons`                  | boolean       | true \| false            | To show/hide Code Copy button                                                             |
 | `defaultTheme`                         | string        | light \| dark \| auto    | To set default theme                                                                      |
 | `disableThemeToggle`                   | boolean       | true \| false            | To disable theme toggle icon shown besides label                                          |
 | `disableSpecial1stPost`                | boolean       | true \| false            | To disable no-card special appearance of 1st post                                         |
 | `disableScrollToTop`                   | boolean       | true \| false            | To disable ScrollToTop button                                                             |
-| `disableCodeCopy`                      | boolean       | true \| false            | To disable Code Copy button                                                               |
 | `hideMeta`                             | boolean       | true \| false            | To Hide meta elements : date, read-time, author and available-translations for page       |
 | `hideSummary`                          | boolean       | true \| false            | To Hide summary being shown in list pages                                                 |
 | `showtoc`                              | boolean       | true \| false            | To show/hide Table of Contents                                                            |

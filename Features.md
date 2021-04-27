@@ -409,13 +409,9 @@ params:
 
 Adds a `copy` button in code block to copy the code it contains
 
--   Enabled by default.
-
-To disable use
-
 ```yml
 params:
-    disableCodeCopy: true
+    ShowCodeCopyButtons: true
 ```
 
 ---

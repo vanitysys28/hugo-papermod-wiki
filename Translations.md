@@ -7,6 +7,7 @@
 | Catalan    | ca       | prev_page, next_page, read_time, toc, translations, home                                    |
 | German     | de       | prev_page, next_page, read_time, toc, translations, edit_post                               |
 | English    | en       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
+| Esperanto  | eo       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Spanish    | es       | prev_page, next_page, read_time, toc, translations                                          |
 | Farsi      | fa       | prev_page, next_page, read_time, toc, translations                                          |
 | French     | fr       | prev_page, next_page                                                                        |
@@ -17,9 +18,13 @@
 | Italian    | it       | prev_page, next_page, read_time, toc, translations                                          |
 | Japanese   | ja       | prev_page, next_page, read_time, toc, translations                                          |
 | Korean     | ko       | prev_page, next_page                                                                        |
+| Mongolian  | mn       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Portuguese | pt       | prev_page, next_page, read_time, toc, translations                                          |
 | Russian    | ru       | prev_page, next_page, read_time, toc, translations                                          |
+| Turkish    | tr       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Ukrainian  | uk       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Uzbek      | uz       | prev_page, next_page, read_time, toc, translations, home                                    |
+| Vietnamese | vi       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Chinese    | zh       | prev_page, next_page, read_time, toc, translations                                          |
 
 ## Want to add your Language ?
