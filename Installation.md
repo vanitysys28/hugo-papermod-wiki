@@ -141,6 +141,7 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
@@ -263,6 +264,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Desc Text."
+canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
