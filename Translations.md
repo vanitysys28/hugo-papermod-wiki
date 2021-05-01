@@ -19,6 +19,7 @@
 | Japanese   | ja       | prev_page, next_page, read_time, toc, translations                                          |
 | Korean     | ko       | prev_page, next_page                                                                        |
 | Mongolian  | mn       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Polish     | pl       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
 | Portuguese | pt       | prev_page, next_page, read_time, toc, translations                                          |
 | Russian    | ru       | prev_page, next_page, read_time, toc, translations                                          |
 | Turkish    | tr       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
