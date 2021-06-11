@@ -44,6 +44,12 @@
 | `profileMode`                          | -             | -                        | [Details](#profilemode)                                                                   |
 | `editPost`                             | -             | -                        | [Details](#editPost)                                                                      |
 
+### Site Variables
+
+| name        | type   | example                                    | Description                                                                                                                   |
+| ----------- | ------ | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| `copyright` | string | `**[example.site](https://example.site)**` | This is [HUGO's site variable](https://gohugo.io/variables/site/#site-variables-list), which can also render markdown content |
+
 #### label
 
 | name               | type    | example                 | Description                                      |
