@@ -4,6 +4,7 @@
 | ---------- | -------- | ------------------------------------------------------------------------------------------- |
 | Arabic     | ar       | prev_page, next_page, read_time, toc, translations, home                                    |
 | Bulgarian  | bg       | prev_page, next_page, read_time, toc, translations                                          |
+| Bengali    | bn       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
 | Catalan    | ca       | prev_page, next_page, read_time, toc, translations, home                                    |
 | German     | de       | prev_page, next_page, read_time, toc, translations, edit_post                               |
 | English    | en       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
@@ -19,6 +20,7 @@
 | Japanese   | ja       | prev_page, next_page, read_time, toc, translations                                          |
 | Korean     | ko       | prev_page, next_page                                                                        |
 | Mongolian  | mn       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Dutch      | nl       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
 | Polish     | pl       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
 | Portuguese | pt       | prev_page, next_page, read_time, toc, translations                                          |
 | Russian    | ru       | prev_page, next_page, read_time, toc, translations                                          |
@@ -26,7 +28,7 @@
 | Ukrainian  | uk       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Uzbek      | uz       | prev_page, next_page, read_time, toc, translations, home                                    |
 | Vietnamese | vi       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
-| Chinese    | zh       | prev_page, next_page, read_time, toc, translations                                          |
+| Chinese    | zh       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 
 ## Want to add your Language ?
 
@@ -45,8 +47,8 @@ ISO codes can be found here: https://www.w3schools.com/tags/ref_language_codes.a
 
 - id: read_time
   translation:
-      one: "1 min"
-      other: "{{ .Count }} min"
+    one: "1 min"
+    other: "{{ .Count }} min"
 
 - id: toc
   translation: "Table of Contents"
