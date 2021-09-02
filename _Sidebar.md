@@ -1,8 +1,0 @@
--   **[Home](./Home)**
-    -   **[Install / Update](./Installation)**
-    -   **[Features](./Features)**
-    -   **[FAQs](./FAQs)**
-    -   **[Variables](./Variables)**
-    -   **[Icons](./Icons)**
-    -   **[Translations](./Translations)**
--   **[ChangeLog](./ChangeLog)**
