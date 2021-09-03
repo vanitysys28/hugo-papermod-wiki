@@ -148,8 +148,6 @@ params:
             url: "<link2>"
 ```
 
-ex. [config.yml#L106](https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml#L106)
-
 ---
 
 ### Profile Mode
