@@ -1,25 +1,25 @@
 ## ToC
 
--   [Intro](#intro)
--   [Override theme template](#override-theme-template)
--   [Enable Social-Metadata and SEO](#enable-social-metadata-and-seo)
--   [Failed to find a valid digest in the 'integrity' attribute for resource ... ?](#failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource--)
--   [Bundling Custom css with theme's assets](#bundling-custom-css-with-themes-assets)
--   [Custom Head / Footer](#custom-head--footer)
--   [Add menu to site](#add-menu-to-site)
--   [Pin a Post](#pin-a-post)
--   [Adding Custom Favicon(s)](#adding-custom-favicons)
--   [Centering image in markdown](#centering-image-in-markdown)
--   [Using Hugo's Syntax highlighter "chroma"](#using-hugos-syntax-highlighter-chroma)
--   [References](#references)
+- [Intro](#intro)
+- [Override theme template](#override-theme-template)
+- [Enable Social-Metadata and SEO](#enable-social-metadata-and-seo)
+- [Failed to find a valid digest in the 'integrity' attribute for resource ... ?](#failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource--)
+- [Bundling Custom css with theme's assets](#bundling-custom-css-with-themes-assets)
+- [Custom Head / Footer](#custom-head--footer)
+- [Add menu to site](#add-menu-to-site)
+- [Pin a Post](#pin-a-post)
+- [Adding Custom Favicon(s)](#adding-custom-favicons)
+- [Centering image in markdown](#centering-image-in-markdown)
+- [Using Hugo's Syntax highlighter "chroma"](#using-hugos-syntax-highlighter-chroma)
+- [References](#references)
 
 ---
 
 ## Intro
 
--   **We'll be using `yml/yaml` format for all examples down below, I recommend using `yml` over `toml` as it is easier to read.**
+- **We'll be using `yml/yaml` format for all examples down below, I recommend using `yml` over `toml` as it is easier to read.**
 
--   You can find any [YML to TOML](https://www.google.com/search?q=yml+to+toml) converters if necessary.
+- You can find any [YML to TOML](https://www.google.com/search?q=yml+to+toml) converters if necessary.
 
 ---
 
@@ -50,7 +50,7 @@ These include OpenGraph, Twitter Cards and Schema.
 
 ```yml
 params:
-    env: production
+  env: production
 ```
 
 or set `HUGO_ENV` as "production" in system env-vars
@@ -69,21 +69,21 @@ Set the following in `config.yml`
 
 ```yml
 params:
-    assets:
-        disableFingerprinting: true
+  assets:
+    disableFingerprinting: true
 ```
 
 Linked Issues:
 
--   https://stackoverflow.com/questions/65056585/hugo-theme-not-loading
--   https://stackoverflow.com/questions/65040931/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource
--   https://blog.gerardbeckerleg.com/posts/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource/
+- https://stackoverflow.com/questions/65056585/hugo-theme-not-loading
+- https://stackoverflow.com/questions/65040931/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource
+- https://blog.gerardbeckerleg.com/posts/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource/
 
 ---
 
 ## Bundling Custom css with theme's assets
 
--   For adding custom css to be bundled inside one minimized css
+- For adding custom css to be bundled inside one minimized css
 
 Create folder in yout project directory as
 
@@ -105,7 +105,7 @@ All `css` files inside `assets/css/extended` will be bundled !
 
 Linked Issues:
 
--   [Papermod Theme: How to add custom CSS?](https://discourse.gohugo.io/t/papermod-theme-how-to-add-custom-css/30165)
+- [Papermod Theme: How to add custom CSS?](https://discourse.gohugo.io/t/papermod-theme-how-to-add-custom-css/30165)
 
 ---
 
@@ -142,19 +142,19 @@ To do so, add a `menu` section to your site's `config.yml`:
 
 ```yml
 menu:
-    main:
-        - identifier: categories
-          name: categories
-          url: /categories/
-          weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
 ```
 
 `name` controls what will be displayed for the menu entry.
@@ -177,7 +177,6 @@ title: "My Important post"
 date: 2020-09-15T11:30:03+00:00
 weight: 1
 ---
-
 ```
 
 ```yml
@@ -186,7 +185,6 @@ title: "My 2nd Important post"
 date: 2020-09-15T11:30:03+00:00
 weight: 2
 ---
-
 ```
 
 ---
@@ -196,43 +194,43 @@ weight: 2
 We support the following paths under `/static` directory
 and can be added accordingly.
 
--   `favicon.ico`
--   `favicon-16x16.png`
--   `favicon-32x32.png`
--   `apple-touch-icon.png`
--   `safari-pinned-tab.svg`
+- `favicon.ico`
+- `favicon-16x16.png`
+- `favicon-32x32.png`
+- `apple-touch-icon.png`
+- `safari-pinned-tab.svg`
 
 1. Favicon(s) can be generated by [Favicon.io](https://favicon.io)
 
-    and can be simply put in `/static` folder.
+   and can be simply put in `/static` folder.
 
 2. Other way is to add favicon(s) NOT located in `/static` folder.
 
-    In site config add the following:
+   In site config add the following:
 
-    ```
-    params:
-    assets:
-        favicon: "<link / absolute url>"
-        favicon16x16:  "<link / absolute url>"
-        favicon32x32:  "<link / absolute url>"
-        apple_touch_icon:  "<link / absolute url>"
-        safari_pinned_tab:  "<link / absolute url>"
-    ```
+   ```
+   params:
+   assets:
+       favicon: "<link / absolute url>"
+       favicon16x16:  "<link / absolute url>"
+       favicon32x32:  "<link / absolute url>"
+       apple_touch_icon:  "<link / absolute url>"
+       safari_pinned_tab:  "<link / absolute url>"
+   ```
 
-    - `absolute url` means direct links to external resource: ex. https://web.site/someimage.png
+   - `absolute url` means direct links to external resource: ex. https://web.site/someimage.png
 
-    example:
+   example:
 
-    ```
-    params:
-    assets:
-        favicon: "/favicon.ico"
-        favicon16x16:  "/favicon-16x16.png"
-        favicon32x32:  "/favicon-32x32.png"
-        apple_touch_icon:  "/apple-touch-icon.png"
-        safari_pinned_tab:  "/safari-pinned-tab.svg"
-    ```
+   ```
+   params:
+   assets:
+       favicon: "/favicon.ico"
+       favicon16x16:  "/favicon-16x16.png"
+       favicon32x32:  "/favicon-32x32.png"
+       apple_touch_icon:  "/apple-touch-icon.png"
+       safari_pinned_tab:  "/safari-pinned-tab.svg"
+   ```
 
 ---
 
@@ -260,38 +258,38 @@ ex.
 
 1. Disable Highlight.js in site `config.yml`
 
-    ```yml
-    params:
-        assets:
-            disableHLJS: true
-    ```
+   ```yml
+   params:
+     assets:
+       disableHLJS: true
+   ```
 
 2. Set hugo's markdown styling in site `config.yml`
 
-    ```yml
-    markup:
-        highlight:
-            # anchorLineNos: true
-            codeFences: true
-            guessSyntax: true
-            lineNos: true
-            # noClasses: false
-            style: monokai
-    ```
+   ```yml
+   markup:
+     highlight:
+       # anchorLineNos: true
+       codeFences: true
+       guessSyntax: true
+       lineNos: true
+       # noClasses: false
+       style: monokai
+   ```
 
 3. If you want `lineNos: true`, the background won't be proper.
    This will only work with `noClasses: false` or `pygmentsUseClasses: true`.
    Read [Generate Syntax Highlighter CSS](https://gohugo.io/content-management/syntax-highlighting/#generate-syntax-highlighter-css)
 
-    Add the following to `assets/css/extended/custom.css`
+   Add the following to `assets/css/extended/custom.css`
 
-    ```css
-    .chroma {
-        background-color: unset;
-    }
-    ```
+   ```css
+   .chroma {
+     background-color: unset;
+   }
+   ```
 
-    More Info : [Configure Markup - Highlight](https://gohugo.io/getting-started/configuration-markup#highlight)
+   More Info : [Configure Markup - Highlight](https://gohugo.io/getting-started/configuration-markup#highlight)
 
 ---
 
@@ -315,4 +313,4 @@ xhr.open("GET", "https://example.com/index.json");
 
 ## References
 
--   [Override a Hugo theme](https://zwbetz.com/override-a-hugo-theme/)
+- [Override a Hugo theme](https://zwbetz.com/override-a-hugo-theme/)

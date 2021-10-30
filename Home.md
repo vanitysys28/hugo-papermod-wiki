@@ -13,16 +13,16 @@ Demo Site : https://adityatelange.github.io/hugo-PaperMod/
 
 ## Quick Links
 
--   ### [Install / Update](./Installation)
+- ### [Install / Update](./Installation)
 
--   ### [Features](./Features)
+- ### [Features](./Features)
 
--   ### [Icons](./Icons)
+- ### [Icons](./Icons)
 
--   ### [FAQs](./FAQs)
+- ### [FAQs](./FAQs)
 
--   ### [Variables](./Variables)
+- ### [Variables](./Variables)
 
--   ### [Translations](./Translations)
+- ### [Translations](./Translations)
 
--   ### [ChangeLog](./ChangeLog)
+- ### [ChangeLog](./ChangeLog)

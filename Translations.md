@@ -1,34 +1,38 @@
 ## Languages Supported
 
-| Name       | ISO Code | Available Translations                                                                      |
-| ---------- | -------- | ------------------------------------------------------------------------------------------- |
-| Arabic     | ar       | prev_page, next_page, read_time, toc, translations, home                                    |
-| Bulgarian  | bg       | prev_page, next_page, read_time, toc, translations                                          |
-| Bengali    | bn       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
-| Catalan    | ca       | prev_page, next_page, read_time, toc, translations, home                                    |
-| German     | de       | prev_page, next_page, read_time, toc, translations, edit_post                               |
-| English    | en       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
-| Esperanto  | eo       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
-| Spanish    | es       | prev_page, next_page, read_time, toc, translations                                          |
-| Farsi      | fa       | prev_page, next_page, read_time, toc, translations                                          |
-| French     | fr       | prev_page, next_page                                                                        |
-| Hebrew     | he       | prev_page, next_page, read_time, toc, translations, home                                    |
-| Hindi      | hi       | prev_page, next_page, read_time, toc, translations                                          |
-| Hungarian  | hu       | prev_page, next_page, read_time, toc, translations                                          |
-| Indonesian | id       | prev_page, next_page, read_time, toc, translations                                          |
-| Italian    | it       | prev_page, next_page, read_time, toc, translations                                          |
-| Japanese   | ja       | prev_page, next_page, read_time, toc, translations                                          |
-| Korean     | ko       | prev_page, next_page                                                                        |
-| Mongolian  | mn       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
-| Dutch      | nl       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
-| Polish     | pl       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
-| Portuguese | pt       | prev_page, next_page, read_time, toc, translations                                          |
-| Russian    | ru       | prev_page, next_page, read_time, toc, translations                                          |
-| Turkish    | tr       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
-| Ukrainian  | uk       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
-| Uzbek      | uz       | prev_page, next_page, read_time, toc, translations, home                                    |
-| Vietnamese | vi       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
-| Chinese    | zh       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Name                         | ISO Code | Available Translations                                                                      |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------- |
+| Arabic                       | ar       | prev_page, next_page, read_time, toc, translations, home                                    |
+| Bulgarian                    | bg       | prev_page, next_page, read_time, toc, translations                                          |
+| Bengali                      | bn       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
+| Catalan                      | ca       | prev_page, next_page, read_time, toc, translations, home                                    |
+| Northern and Central Kurdish | ckb      | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Danish                       | da       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
+| German                       | de       | prev_page, next_page, read_time, toc, translations, edit_post                               |
+| English                      | en       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
+| Esperanto                    | eo       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Spanish                      | es       | prev_page, next_page, read_time, toc, translations                                          |
+| Farsi                        | fa       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| French                       | fr       | prev_page, next_page                                                                        |
+| Hebrew                       | he       | prev_page, next_page, read_time, toc, translations, home                                    |
+| Hindi                        | hi       | prev_page, next_page, read_time, toc, translations                                          |
+| Hungarian                    | hu       | prev_page, next_page, read_time, toc, translations                                          |
+| Indonesian                   | id       | prev_page, next_page, read_time, toc, translations                                          |
+| Italian                      | it       | prev_page, next_page, read_time, toc, translations                                          |
+| Japanese                     | ja       | prev_page, next_page, read_time, toc, translations, code_copy, code_copied                  |
+| Korean                       | ko       | prev_page, next_page                                                                        |
+| Kurdish                      | ku       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Mongolian                    | mn       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Dutch                        | nl       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
+| Polish                       | pl       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
+| Portuguese                   | pt       | prev_page, next_page, read_time, toc, translations                                          |
+| Russian                      | ru       | prev_page, next_page, read_time, toc, translations                                          |
+| Turkish                      | tr       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Ukrainian                    | uk       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Uzbek                        | uz       | prev_page, next_page, read_time, toc, translations, home                                    |
+| Vietnamese                   | vi       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
+| Taiwanese Chinese            | zh-tw    | rev_page, next_page, read_time, toc, translations, home, code_copy, code_copied             |
+| Chinese                      | zh       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 
 ## Want to add your Language ?
 
