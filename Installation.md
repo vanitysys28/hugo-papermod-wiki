@@ -70,6 +70,7 @@ Or you can Download as Zip from Github Page and extract in your themes directory
 Direct Links:
 
 - [Master Branch (Latest)](https://github.com/adityatelange/hugo-PaperMod/archive/master.zip)
+- [v6.0](https://github.com/adityatelange/hugo-PaperMod/archive/v6.0.zip)
 - [v5.0](https://github.com/adityatelange/hugo-PaperMod/archive/v5.0.zip)
 - [v4.0](https://github.com/adityatelange/hugo-PaperMod/archive/v4.0.zip)
 - [v3.0](https://github.com/adityatelange/hugo-PaperMod/archive/v3.0.zip)

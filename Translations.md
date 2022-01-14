@@ -11,16 +11,16 @@
 | German                       | de       | prev_page, next_page, read_time, toc, translations, edit_post                               |
 | English                      | en       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |
 | Esperanto                    | eo       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
-| Spanish                      | es       | prev_page, next_page, read_time, toc, translations                                          |
+| Spanish                      | es       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Farsi                        | fa       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
-| French                       | fr       | prev_page, next_page                                                                        |
+| French                       | fr       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Hebrew                       | he       | prev_page, next_page, read_time, toc, translations, home                                    |
 | Hindi                        | hi       | prev_page, next_page, read_time, toc, translations                                          |
 | Hungarian                    | hu       | prev_page, next_page, read_time, toc, translations                                          |
 | Indonesian                   | id       | prev_page, next_page, read_time, toc, translations                                          |
 | Italian                      | it       | prev_page, next_page, read_time, toc, translations                                          |
 | Japanese                     | ja       | prev_page, next_page, read_time, toc, translations, code_copy, code_copied                  |
-| Korean                       | ko       | prev_page, next_page                                                                        |
+| Korean                       | ko       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Kurdish                      | ku       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Mongolian                    | mn       | prev_page, next_page, read_time, toc, translations, home, code_copy, code_copied            |
 | Dutch                        | nl       | prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, code_copied |

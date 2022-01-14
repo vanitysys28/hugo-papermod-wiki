@@ -14,6 +14,7 @@
 | `codepen`       | codepen.io                      |
 | `cryptohack`    | cryptohack.org                  |
 | `ctftime`       | ctftime.org                     |
+| `cv`            | -                               |
 | `dev`           | dev.to                          |
 | `discogs`       | discogs.com                     |
 | `discord`       | discord.com                     |
@@ -45,6 +46,8 @@
 | `mixcloud`      | mixcloud.com                    |
 | `nuget`         | nuget.org                       |
 | `paypal`        | paypal.com                      |
+| `phone`         | -                               |
+| `ploywork`      | ploywork.com                    |
 | `qq`            | qq.com                          |
 | `reddit`        | reddit.com                      |
 | `researchgate`  | researchgate.net                |
@@ -63,6 +66,7 @@
 | `twitter`       | twitter.com                     |
 | `unsplash`      | unsplash.com                    |
 | `xda`           | xda-developers.com              |
+| `xing`          | xing.com                        |
 | `ycombinator`   | ycombinator.com                 |
 | `youtube`       | youtube.com                     |
 | `other`         | -                               |

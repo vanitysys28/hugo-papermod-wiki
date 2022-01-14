@@ -88,11 +88,13 @@ profileMode:
 
 #### assets
 
-| name                           | type    | example       | Description                                  |
-| ------------------------------ | ------- | ------------- | -------------------------------------------- |
-| `assets.favicon`               | string  | 'icon.ico'    | To set favicon, can be path or external link |
-| `assets.disableHLJS`           | boolean | true \| false | To disable Highlight.js loading              |
-| `assets.disableFingerprinting` | boolean | true \| false | To disable Sub-Resource integrity for assets |
+| name                             | type    | example       | Description                                  |
+| -------------------------------- | ------- | ------------- | -------------------------------------------- |
+| `assets.favicon`                 | string  | 'icon.ico'    | To set favicon, can be path or external link |
+| `assets.disableHLJS`             | boolean | true \| false | To disable Highlight.js loading              |
+| `assets.disableFingerprinting`   | boolean | true \| false | To disable Sub-Resource integrity for assets |
+| `assets.theme_color`             | string  | '#color'      | To set custom meta theme-color               |
+| `assets.msapplication_TileColor` | string  | '#color'      | To set custom msapplication_TileColor        |
 
 #### cover
 
