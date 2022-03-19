@@ -51,7 +51,7 @@ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth
 you can use as [submodule](https://www.atlassian.com/git/tutorials/git-submodule) with
 
 ```bash
-git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
 ```
 
