@@ -210,7 +210,7 @@ and can be added accordingly.
 
    ```
    params:
-   assets:
+     assets:
        favicon: "<link / absolute url>"
        favicon16x16:  "<link / absolute url>"
        favicon32x32:  "<link / absolute url>"
