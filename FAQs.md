@@ -224,7 +224,7 @@ and can be added accordingly.
 
    ```
    params:
-   assets:
+     assets:
        favicon: "/favicon.ico"
        favicon16x16:  "/favicon-16x16.png"
        favicon32x32:  "/favicon-32x32.png"
