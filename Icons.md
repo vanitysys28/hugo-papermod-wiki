@@ -57,7 +57,6 @@
 | `shutterstock`  | shutterstock.com                |
 | `slack`         | slack.com                       |
 | `snapchat`      | snapchat.com/add                |
-| `sourcerer`     | sourcerer.io                    |
 | `spotify`       | spotify.com                     |
 | `stackoverflow` | stackoverflow.com               |
 | `steam`         | steampowered.com                |
