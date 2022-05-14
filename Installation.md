@@ -143,6 +143,9 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -274,6 +277,9 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
