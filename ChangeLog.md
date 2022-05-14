@@ -1,5 +1,6 @@
 ## ToC
 
+- [v6.0](#v60)
 - [v5.0](#v50)
 - [v4.0](#v40)
 - [v3.0](#v30)
@@ -7,6 +8,28 @@
 - [v1.0](#v10)
 
 ---
+
+### v6.0
+
+[Compare v5.0...v6.0](https://github.com/adityatelange/hugo-PaperMod/compare/v5.0...v6.0)
+
+- Added Feature `ShowCodeCopyButtons` - Adds a button to copy code block contents.
+- Added Feature `ShowFullTextinRSS` - Adds Full Text content in RSS feeds.
+- Added Feature `ShowAllPagesInArchive` - To show all pages in archives.
+- Added Feature `Originally published at` when `canonicalUrl` and `ShowCanonicalLink` is set .
+- Theme colors are converted from `rgba` to `hex`.
+- Added option to customize Social-Media Share buttons `ShareButtons: ["linkedin", "twitter"]`
+- Added option to hide copyright/footer text
+- Added `summary` in section pages, `Content` on list pages, `description` can now be in markdown on list pages.
+- Added `placeholder` param in Search to customize placeholder in search input box.
+- Added option to disable Anchored headings `disableAnchoredHeadings`
+- Updated internal Hugo templates.
+- Add Translations of `Ukrainian`, `Russian`, `Esperanto`, `Vietnamese`, `Turkish`, `Mongolian`, `Polish`, `Bengali`, `Dutch`, `Chinese`, `Kurdish`, `Italian`, `Danish`, `Korean`.
+- Add social icons of `hackerone`, `xda`, `goodreads`, `splotify`, `flicker`, `librepay`, `matrix`, `serverfault`, `researchgate`, `googlescholar`, `ycombinator`, `polywork`, `cv`, `xing`, `phone`.
+- Fixed Emojis affected by theme opacity values.
+- Fixed line highlighting in code-blocks.
+- Fixed `params.fuseOpts` being ignored by Fuse.js.
+- Miscellaneous improvements, fixes and accessibility enhancements.
 
 ### v5.0
 
