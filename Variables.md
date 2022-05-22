@@ -188,3 +188,4 @@ editPost:
 | `ShowWordCount`                  | boolean       | true \| false                   | To word count to metadata                                                           |
 | `ShowRssButtonInSectionTermList` | boolean       | true \| false                   | To show RSS icon in Section, Term and List pages                                    |
 | `UseHugoToc`                     | boolean       | true \| false                   | To use Hugo's default Toc instead of custom                                         |
+| `robotsNoIndex`                  | boolean       | true \| false                   | To hide a particular page from indexing by search engines                           |
