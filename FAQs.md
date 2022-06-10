@@ -285,7 +285,7 @@ ex.
 
    ```css
    .chroma {
-     background-color: unset;
+     background-color: unset !important;
    }
    ```
 
