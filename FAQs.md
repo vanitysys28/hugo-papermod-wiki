@@ -288,6 +288,11 @@ ex.
      background-color: unset !important;
    }
    ```
+   
+   You can use, for ex.
+   ```sh
+   hugo gen chromastyles --style dracula > assets/css/extended/dracula.css
+   ```
 
    More Info : [Configure Markup - Highlight](https://gohugo.io/getting-started/configuration-markup#highlight)
 
