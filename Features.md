@@ -361,7 +361,7 @@ For site config use:
 ```yml
 Params:
     editPost:
-        URL: "https://github.com/<path_to_repo>/content"
+        URL: "https://github.com/<gitlab user>/<repo name>/tree/<branch name>/<path to content>/"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 ```
