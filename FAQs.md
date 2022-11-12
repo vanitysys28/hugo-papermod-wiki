@@ -11,6 +11,7 @@
 - [Adding Custom Favicon(s)](#adding-custom-favicons)
 - [Centering image in markdown](#centering-image-in-markdown)
 - [Using Hugo's Syntax highlighter "chroma"](#using-hugos-syntax-highlighter-chroma)
+- [Posts from only one folder/section visible on home page?](#posts-from-only-one-foldersection-visible-on-home-page)
 - [References](#references)
 
 ---
@@ -312,6 +313,23 @@ To fix for _single_ language websites hosting assets from CDN, this you may [ove
 
 ```js
 xhr.open("GET", "https://example.com/index.json");
+```
+
+---
+
+## Posts from only one folder/section visible on home page
+
+That is because PaperMod uses `mainsections` from Hugo.
+Read more: https://gohugo.io/functions/where/#mainsections
+
+If you have not set this config parameter in site config, it will default to the section with the most pages.
+You can customize it with:
+
+```yml
+params:
+  mainSections:
+  - blog
+  - docs
 ```
 
 ---
