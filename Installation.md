@@ -5,6 +5,7 @@
   - [Method 2](#method-2)
   - [Method 3](#method-3)
   - [Finally ...](#finally-)
+- [Videos featuring Papermod](#videos-featuring-papermod)
 - [Sample config.yml](#sample-configyml)
 - [Sample Page.md](#sample-pagemd)
 
@@ -84,6 +85,13 @@ Add in `config.yml`:
 ```yml
 theme: "PaperMod"
 ```
+---
+
+## Videos featuring Papermod
+
+You can go through few videos which are available on YouTube for getting to know the creator's thoughts as well as the setup process.
+
+▶️ https://youtube.com/playlist?list=PLeiDFxcsdhUrzkK5Jg9IZyiTsIMvXxKZP
 
 ---
 
