@@ -7,7 +7,9 @@ The [demo site](https://adityatelange.github.io/hugo-PaperMod/) includes a lot o
 
 ExampleSite can be found here: [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with exampleSite as source.
 
-Demo Site : https://adityatelange.github.io/hugo-PaperMod/
+➡️ Demo Site : https://adityatelange.github.io/hugo-PaperMod/
+
+➡️ Videos featuring Papermod: https://youtube.com/playlist?list=PLeiDFxcsdhUrzkK5Jg9IZyiTsIMvXxKZP
 
 ---
 
