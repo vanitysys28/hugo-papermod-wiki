@@ -74,7 +74,7 @@
 | `steam`         | steampowered.com                |
 | `strava`        | strava.com                      |
 | `telegram`      | telegram.org                    |
-| `tiktok         | tiktok.com                      |
+| `tiktok`         | tiktok.com                      |
 | `twitch`        | twitch.tv                       |
 | `twitter`       | twitter.com                     |
 | `unsplash`      | unsplash.com                    |
