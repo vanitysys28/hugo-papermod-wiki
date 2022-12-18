@@ -98,8 +98,8 @@ socialIcons:
 
 ## Share Icons
 
-| No.                                                             | Platform |
-| --------------------------------------------------------------- | -------- |
+| Platform                                                        |
+| --------------------------------------------------------------- |
 | `twitter` (also generates hash tags from tags linked with post) |
 | `linkedin`                                                      |
 | `reddit`                                                        |
