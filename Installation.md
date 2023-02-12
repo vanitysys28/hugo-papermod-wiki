@@ -38,7 +38,7 @@ Inside the folder of your Hugo site, run:
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
 ```
 
-**Note**: You may use ` --branch v5.0` to end of above command if you want to stick to specific release.
+**Note**: You may use ` --branch v7.0` to end of above command if you want to stick to specific release.
 
 > Updating theme :
 >
@@ -56,7 +56,7 @@ git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git t
 git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
 ```
 
-**Note**: You may use ` --branch v5.0` to end of above command if you want to stick to specific release.
+**Note**: You may use ` --branch v7.0` to end of above command if you want to stick to specific release.
 
 > Updating theme :
 >
@@ -71,6 +71,7 @@ Or you can Download as Zip from Github Page and extract in your themes directory
 Direct Links:
 
 - [Master Branch (Latest)](https://github.com/adityatelange/hugo-PaperMod/archive/master.zip)
+- [v7.0](https://github.com/adityatelange/hugo-PaperMod/archive/v7.0.zip)
 - [v6.0](https://github.com/adityatelange/hugo-PaperMod/archive/v6.0.zip)
 - [v5.0](https://github.com/adityatelange/hugo-PaperMod/archive/v5.0.zip)
 - [v4.0](https://github.com/adityatelange/hugo-PaperMod/archive/v4.0.zip)
