@@ -89,8 +89,10 @@ Usage :
 ```
 socialIcons:
   - name: "kofi"
+    title: "<custom title>"
     url: "https://kofi.com"
   - name: "twitter"
+    title: "<custom title>"
     url: "https://twitter.com"
 ```
 
