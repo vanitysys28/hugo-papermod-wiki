@@ -137,9 +137,11 @@ fuseOpts:
 ```yml
 socialIcons:
     - name: "<platform>"
-        url: "<link>"
+      title: "<custom title>"
+      url: "<link>"
     - name: "<platform 2>"
-        url: "<link2>"
+      title: "<custom title 2>"
+      url: "<link2>"
 ```
 
 #### editPost
