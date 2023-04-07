@@ -20,15 +20,19 @@
 
 ## Guide
 
-Follow [Quick Start](https://gohugo.io/getting-started/quick-start/) guide to setup hugo and create a new site.
+> Follow [Quick Start](https://gohugo.io/getting-started/quick-start/) guide to setup hugo and create a new site.
 
-> Note: Use -f to select yml format
->
-> `hugo new site <name of site> -f yml`
+**Prerequisites**
 
-Make sure you install latest version of **`hugo(>=0.83.0)`**.
+- [Install Hugo](https://gohugo.io/installation/) - Make sure you install latest version of **`hugo(>=0.83.0)`**.
+- [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - necessary for Method 1 & 2.
 
-After you have created a new site, at [Step 3](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme) follow the steps:
+**Create a new site**
+
+- `hugo new site <name of site> -f yml`
+- `cd <name of site>`
+
+After you have created a new site, follow the below steps:
 
 ### Method 1
 
@@ -40,8 +44,8 @@ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth
 
 **Note**: You may use ` --branch v7.0` to end of above command if you want to stick to specific release.
 
-> Updating theme :
->
+**Updating theme with Method 1** :
+
 > ```bash
 > cd themes/PaperMod
 > git pull
@@ -58,15 +62,15 @@ git submodule update --init --recursive # needed when you reclone your repo (sub
 
 **Note**: You may use ` --branch v7.0` to end of above command if you want to stick to specific release.
 
-> Updating theme :
->
+**Updating theme with Method 2** :
+
 > ```bash
 > git submodule update --remote --merge
 > ```
 
 ### Method 3
 
-Or you can Download as Zip from Github Page and extract in your themes directory
+You can Download as Zip from Github Page and extract in your themes directory
 
 Direct Links:
 
@@ -79,6 +83,11 @@ Direct Links:
 - [v2.0](https://github.com/adityatelange/hugo-PaperMod/archive/v2.0.zip)
 - [v1.0](https://github.com/adityatelange/hugo-PaperMod/archive/v1.0.zip)
 
+**Updating theme with Method 3** :
+
+- Download the version you wish to upgrade to and extract the new version in your themes directory at `themes/PaperMod`.
+- ex. `v6.0` is already installed, `v7.0` should be downloaded using above links and extract the new version in your themes directory at `themes/PaperMod`
+
 ### Finally ...
 
 Add in `config.yml`:
@@ -86,6 +95,27 @@ Add in `config.yml`:
 ```yml
 theme: "PaperMod"
 ```
+
+#### Additional Method (by [#701](https://github.com/adityatelange/hugo-PaperMod/pull/701))
+
+- Install Go programming language in your operating system.
+- Intialize your own hugo mod
+- ```bash
+  hugo mod init YOUR_OWN_GIT_REPOSITORY`
+  ```
+- Add `PaperMod` in your `config.yml` file
+- ```yaml
+  module:
+    imports:
+      - path: github.com/adityatelange/hugo-PaperMod
+  ```
+
+**Updating theme** :
+
+```bash
+hugo mod get -u
+```
+
 ---
 
 ## Videos featuring Papermod
