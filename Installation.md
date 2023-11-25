@@ -333,7 +333,7 @@ editPost:
 ---
 ```
 
-You can use it by creating `archetypes/post.md`
+You can use it by creating `archetypes/posts.md`
 
 ```shell
 hugo new --kind post <name>
