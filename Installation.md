@@ -29,7 +29,7 @@
 
 **Create a new site**
 
-- `hugo new site <name of site> -f yml`
+- `hugo new site <name of site> --format yaml`
 - `cd <name of site>`
 
 After you have created a new site, follow the below steps:
