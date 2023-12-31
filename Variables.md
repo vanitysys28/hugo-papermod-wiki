@@ -95,7 +95,6 @@ profileMode:
 | name                             | type    | example       | Description                                  |
 | -------------------------------- | ------- | ------------- | -------------------------------------------- |
 | `assets.favicon`                 | string  | 'icon.ico'    | To set favicon, can be path or external link |
-| `assets.disableHLJS`             | boolean | true \| false | To disable Highlight.js loading              |
 | `assets.disableFingerprinting`   | boolean | true \| false | To disable Sub-Resource integrity for assets |
 | `assets.theme_color`             | string  | '#color'      | To set custom meta theme-color               |
 | `assets.msapplication_TileColor` | string  | '#color'      | To set custom msapplication_TileColor        |
@@ -170,7 +169,6 @@ editPost:
 | `ShowCanonicalLink`              | boolean       | true \| false                   | To show canonical URL's hostname                                                    |
 | `CanonicalLinkText`              | string        | 'Originally published at'       | To show text before canonical URL's hostname                                        |
 | `disableShare`                   | boolean       | true \| false                   | To hide/show share icons under a page                                               |
-| `disableHLJS`                    | boolean       | true \| false                   | To disable Highlight.js loading                                                     |
 | `disableAnchoredHeadings`        | boolean       | true \| false                   | To disable Anchored Headings                                                        |
 | `searchHidden`                   | boolean       | true \| false                   | Hide page from search                                                               |
 | `hideSummary`                    | boolean       | true \| false                   | To Hide summary being shown in list pages                                           |
