@@ -1,5 +1,7 @@
 ## ToC
 
+- [Latest - master branch](#latest---master-branch)
+- [v7.0](#v70)
 - [v6.0](#v60)
 - [v5.0](#v50)
 - [v4.0](#v40)
@@ -8,6 +10,84 @@
 - [v1.0](#v10)
 
 ---
+
+### Latest - master branch
+
+[Compare v7.0...master](https://github.com/adityatelange/hugo-PaperMod/compare/v7.0...master)
+
+> This project is in active development. Expect breaking changes with releases. Review the release changelog before updating.
+
+### v7.0
+
+[Compare v6.0...v7.0](https://github.com/adityatelange/hugo-PaperMod/compare/v6.0...v7.0)
+
+- Completing German, English and Spanish translation by @deining in https://github.com/adityatelange/hugo-PaperMod/pull/728
+- Add option to add word count to metadata. Closes #735 by @thiagowfx in https://github.com/adityatelange/hugo-PaperMod/pull/740
+- feat:complete simplified/traditional Chinese by @yuyinws in https://github.com/adityatelange/hugo-PaperMod/pull/756
+- Remove duplicate call to hugo.Generator by @JannikArndt in https://github.com/adityatelange/hugo-PaperMod/pull/786
+- Add social icon for Bilibili by @xen0n in https://github.com/adityatelange/hugo-PaperMod/pull/814
+- Added icon for pgp key by @guptarohit in https://github.com/adityatelange/hugo-PaperMod/pull/784
+- Swedish (sv) translation by @emilerl in https://github.com/adityatelange/hugo-PaperMod/pull/829
+- add translation "words -> 字" in zh.yaml by @lavaicer in https://github.com/adityatelange/hugo-PaperMod/pull/837
+- add social icon for Deezer by @fmarquesfilho in https://github.com/adityatelange/hugo-PaperMod/pull/811
+- Feat/Add Kaggle icon by @sp1thas in https://github.com/adityatelange/hugo-PaperMod/pull/830
+- Add icons for 'komoot' and 'letterboxd' by @bikeophilipp in https://github.com/adityatelange/hugo-PaperMod/pull/799
+- Update Taiwanese Chinese translation by @ChiahongHong in https://github.com/adityatelange/hugo-PaperMod/pull/848
+- Remove not required tailing slashes for `meta`, `link` by @Rotzbua in https://github.com/adityatelange/hugo-PaperMod/pull/862
+- Update zh.yaml by @lkxed in https://github.com/adityatelange/hugo-PaperMod/pull/868
+- Add applemusic icon. by @hpello in https://github.com/adityatelange/hugo-PaperMod/pull/869
+- Updated post-single.css to set hr's border to 0 by @SebMtn in https://github.com/adityatelange/hugo-PaperMod/pull/870
+- Fix malformed html structure of the translation list on post. by @binick in https://github.com/adityatelange/hugo-PaperMod/pull/886
+- Fix W3 validator warning: Section lacks heading. by @Rotzbua in https://github.com/adityatelange/hugo-PaperMod/pull/857
+- Added Strava icon svg by @mattburns in https://github.com/adityatelange/hugo-PaperMod/pull/890
+- Update translation fr.yaml by @OxNinja in https://github.com/adityatelange/hugo-PaperMod/pull/888
+- i18n: Update Korean translation ko.yaml by @OctopusET in https://github.com/adityatelange/hugo-PaperMod/pull/894
+- add languages supported for Malay(ms) by @mhrk04 in https://github.com/adityatelange/hugo-PaperMod/pull/899
+- Add TikTok Social Icon by @RichardSlater in https://github.com/adityatelange/hugo-PaperMod/pull/905
+- Add GuruShots (https://gurushots.com/) Social Icon by @RichardSlater in https://github.com/adityatelange/hugo-PaperMod/pull/906
+- Update translation of zh-tw by @DejavuMoe in https://github.com/adityatelange/hugo-PaperMod/pull/908
+- Change i18n next prev page spanish language by @IvanAprea in https://github.com/adityatelange/hugo-PaperMod/pull/917
+- add robotsNoIndex parameter by @martin2250 in https://github.com/adityatelange/hugo-PaperMod/pull/900
+- Add ORCID Social Icon by @jskherman in https://github.com/adityatelange/hugo-PaperMod/pull/928
+- Output valid HTML by @kenohassler in https://github.com/adityatelange/hugo-PaperMod/pull/673
+- Improve Kurdish translations by @roj1512 in https://github.com/adityatelange/hugo-PaperMod/pull/936
+- Fix typo to work with site verification tags by @baek9 in https://github.com/adityatelange/hugo-PaperMod/pull/954
+- Add lichess.org social icon. by @v-shenoy in https://github.com/adityatelange/hugo-PaperMod/pull/952
+- Update Indonesian Languange (id.yaml) in https://github.com/adityatelange/hugo-PaperMod/pull/955
+- update russian translation by @MrYadro in https://github.com/adityatelange/hugo-PaperMod/pull/957
+- Change i18n next prev page Indonesian in https://github.com/adityatelange/hugo-PaperMod/pull/961
+- Adding Sourcehut SocialIcon by @biehlerj in https://github.com/adityatelange/hugo-PaperMod/pull/964
+- update hindi translation by @icy-comet in https://github.com/adityatelange/hugo-PaperMod/pull/977
+- 💄 add missing Icons, update Icon style by @pxlfrk in https://github.com/adityatelange/hugo-PaperMod/pull/733
+- add label.iconSVG key by @icy-comet in https://github.com/adityatelange/hugo-PaperMod/pull/976
+- add vimeo icon by @icy-comet in https://github.com/adityatelange/hugo-PaperMod/pull/975
+- Add a meta tag for naver site verification by @sunghyunjun in https://github.com/adityatelange/hugo-PaperMod/pull/991
+- Add optional custom "title" for social links by @Netruk44 in https://github.com/adityatelange/hugo-PaperMod/pull/999
+- Updating pagination strings for bn: by @0xMehedi in https://github.com/adityatelange/hugo-PaperMod/pull/1002
+- Add more translations by @Hattomo in https://github.com/adityatelange/hugo-PaperMod/pull/1004
+- Adding threema as social icon by @pabloscloud in https://github.com/adityatelange/hugo-PaperMod/pull/1012
+- Add social icons for DeviantArt and Patreon by @ArtBIT in https://github.com/adityatelange/hugo-PaperMod/pull/1013
+- Fix spacing around rawhtml shortcode by @wj25czxj47bu6q in https://github.com/adityatelange/hugo-PaperMod/pull/1018
+- Add icons for AniList and osu! by @Katzenbiber in https://github.com/adityatelange/hugo-PaperMod/pull/1022
+- Updating pagination strings for de by @lguenth in https://github.com/adityatelange/hugo-PaperMod/pull/1024
+- spotify icon svg by @pinfel in https://github.com/adityatelange/hugo-PaperMod/pull/997
+- add sketchfab icon by @pinfel in https://github.com/adityatelange/hugo-PaperMod/pull/998
+- Fastsearch params bug fix by @bentonw414 in https://github.com/adityatelange/hugo-PaperMod/pull/1033
+- Improve Bengali translation by @tarunjana in https://github.com/adityatelange/hugo-PaperMod/pull/1086
+- Added Croatian translation (hr.yaml) by @Ezqzy in https://github.com/adityatelange/hugo-PaperMod/pull/1044
+- Update Hebrew translation by @eisraeli in https://github.com/adityatelange/hugo-PaperMod/pull/1104
+- Improve Turkish Translation by @niturk in https://github.com/adityatelange/hugo-PaperMod/pull/1098
+- update arabic pagination translation by @EssaAlshammri in https://github.com/adityatelange/hugo-PaperMod/pull/1137
+- PT translation updated by @igorr0driguez in https://github.com/adityatelange/hugo-PaperMod/pull/1124
+- Added Belarusian translations by @fobo66 in https://github.com/adityatelange/hugo-PaperMod/pull/1144
+- updated Polish translation by @MacKarp in https://github.com/adityatelange/hugo-PaperMod/pull/1148
+- Add Tumblr Icon by @Merovius in https://github.com/adityatelange/hugo-PaperMod/pull/1115
+- Add TryHackMe Icon by @theJoshMuller in https://github.com/adityatelange/hugo-PaperMod/pull/1113
+- Add codeforces icon by @raisilhamn in https://github.com/adityatelange/hugo-PaperMod/pull/1092
+- Google Scholar SVG icon fixed, now unfilled curved line by @Natooz in https://github.com/adityatelange/hugo-PaperMod/pull/1064
+- Add Netease Cloud Music Social Icon by @JingBh in https://github.com/adityatelange/hugo-PaperMod/pull/1093
+- add title to the image tag in rss.xml by @k-yone in https://github.com/adityatelange/hugo-PaperMod/pull/1105
+- add douban and zhihu icon by @alswl in https://github.com/adityatelange/hugo-PaperMod/pull/1084
 
 ### v6.0
 

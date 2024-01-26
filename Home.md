@@ -14,15 +14,15 @@ ExampleSite can be found here: [exampleSite](https://github.com/adityatelange/hu
 
 ## Quick Links
 
-- [Install / Update](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
+- [Install / Update PaperMod](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
 
-- [Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
+- [Features / Mods](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
 
-- [Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)
+- [FAQs / How To's Guide](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)
 
-- [FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)
+- [Social-Icons / Share-Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)
 
-- [Variables](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables)
+- [Variables | Front Matter](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables)
 
 - [Translations](https://github.com/adityatelange/hugo-PaperMod/wiki/Translations)
 
