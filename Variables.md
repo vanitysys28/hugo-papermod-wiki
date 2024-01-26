@@ -83,11 +83,11 @@
 
 ```yml
 profileMode:
-    buttons:
-        - name: Archive
-        url: "/archive"
-        - name: Github
-        url: "https://github.com/"
+  buttons:
+    - name: Archive
+      url: "/archive"
+    - name: Github
+      url: "https://github.com/"
 ```
 
 #### assets
