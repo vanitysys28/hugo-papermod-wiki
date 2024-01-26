@@ -1,44 +1,44 @@
 ## ToC
 
--   [Assets (js/css)](#assets-jscss)
--   [Default Theme light/dark/auto](#default-theme-lightdarkauto)
--   [Theme Switch Toggle (enabled by default)](#theme-switch-toggle-enabled-by-default)
--   [Archives Layout](#archives-layout)
--   [Regular Mode (default-mode)](#regular-mode-default-mode)
--   [Home-Info Mode](#home-info-mode)
--   [Profile Mode](#profile-mode)
--   [Search Page](#search-page)
--   [Draft Page indication](#draft-page-indication)
--   [Post Cover Image](#post-cover-image)
--   [Share Buttons on post](#share-buttons-on-post)
--   [Show post reading time](#show-post-reading-time)
--   [Show Table of Contents (Toc) on blog post](#show-table-of-contents-toc-on-blog-post)
--   [BreadCrumb Navigation](#breadcrumb-navigation)
--   [Edit Link for Posts](#edit-link-for-posts)
--   [Other Posts suggestion below a post](#other-posts-suggestion-below-a-post)
--   [Code Copy Button](#code-copy-button)
--   [Multiple Authors](#multiple-authors)
--   [Comments](#comments)
--   [AccessKeys](#accesskeys)
--   [Enhanced SEO](#enhanced-seo)
--   [Multilingual Support](#multilingual-support)
--   [Misc](#misc)
-    -   [Scroll-Bar themed (by default)](#scroll-bar-themed-by-default)
-    -   [Smooth Scroll between in-page links (by default)](#smooth-scroll-between-in-page-links-by-default)
-    -   [Scroll-to-Top Button (by default)](#scroll-to-top-button-by-default)
-    -   [Google Analytics integration](#google-analytics-integration)
-    -   [Syntax highlighting](#syntax-highlighting)
-    -   [RSS feeds](#rss-feeds)
+- [Assets (js/css)](#assets-jscss)
+- [Default Theme light/dark/auto](#default-theme-lightdarkauto)
+- [Theme Switch Toggle (enabled by default)](#theme-switch-toggle-enabled-by-default)
+- [Archives Layout](#archives-layout)
+- [Regular Mode (default-mode)](#regular-mode-default-mode)
+- [Home-Info Mode](#home-info-mode)
+- [Profile Mode](#profile-mode)
+- [Search Page](#search-page)
+- [Draft Page indication](#draft-page-indication)
+- [Post Cover Image](#post-cover-image)
+- [Share Buttons on post](#share-buttons-on-post)
+- [Show post reading time](#show-post-reading-time)
+- [Show Table of Contents (Toc) on blog post](#show-table-of-contents-toc-on-blog-post)
+- [BreadCrumb Navigation](#breadcrumb-navigation)
+- [Edit Link for Posts](#edit-link-for-posts)
+- [Other Posts suggestion below a post](#other-posts-suggestion-below-a-post)
+- [Code Copy Button](#code-copy-button)
+- [Multiple Authors](#multiple-authors)
+- [Comments](#comments)
+- [AccessKeys](#accesskeys)
+- [Enhanced SEO](#enhanced-seo)
+  - [Twitter Cards Support](#twitter-cards-support)
+  - [OpenGraph support](#opengraph-support)
+- [Multilingual Support](#multilingual-support)
+- [Misc](#misc)
+  - [Scroll-Bar themed (by default)](#scroll-bar-themed-by-default)
+  - [Smooth Scroll between in-page links (by default)](#smooth-scroll-between-in-page-links-by-default)
+  - [Scroll-to-Top Button (by default)](#scroll-to-top-button-by-default)
+  - [Google Analytics integration](#google-analytics-integration)
+  - [Syntax highlighting](#syntax-highlighting)
+  - [RSS feeds](#rss-feeds)
 
 View demo [here](https://adityatelange.github.io/hugo-PaperMod/)
 
 ---
 
-## Intro
-
--   **We'll be using `yml/yaml` format for all examples down below, I recommend using `yml` over `toml` as it is easier to read.**
-
--   You can find any [YML to TOML](https://www.google.com/search?q=yml+to+toml) converters if necessary.
+> - **We'll be using `yml/yaml` format for all examples down below, I recommend using `yml` over `toml` as it is easier to read.**
+>
+> - You can find any [YML to TOML](https://www.google.com/search?q=yml+to+toml) converters if necessary.
 
 ---
 
@@ -46,19 +46,19 @@ View demo [here](https://adityatelange.github.io/hugo-PaperMod/)
 
 The following is enabled by default
 
--   [minification](https://gohugo.io/hugo-pipes/minification/) - makes the assets size smallest as possible.
--   [bundling](https://gohugo.io/hugo-pipes/bundling/) - bundles all the styles in one single asset
--   [fingerprint/intergity](https://gohugo.io/hugo-pipes/fingerprint/) check.
+- [minification](https://gohugo.io/hugo-pipes/minification/) - makes the assets size smallest as possible.
+- [bundling](https://gohugo.io/hugo-pipes/bundling/) - bundles all the styles in one single asset
+- [fingerprint/intergity](https://gohugo.io/hugo-pipes/fingerprint/) check.
 
 ---
 
 ### Default Theme light/dark/auto
 
-```yml
+```yml {linenos=true}
 params:
-    # defaultTheme: light
-    # defaultTheme: dark
-    defaultTheme: auto # to switch between dark or light according to browser theme
+  # defaultTheme: light
+  # defaultTheme: dark
+  defaultTheme: auto # to switch between dark or light according to browser theme
 ```
 
 </details>
@@ -71,7 +71,7 @@ Shows icon besides title of page to change theme
 
 To disable it :
 
-```yml
+```yml {linenos=true}
 disableThemeToggle: true
 ```
 
@@ -112,7 +112,6 @@ layout: "archives"
 url: "/archives/"
 summary: archives
 ---
-
 ```
 
 **Note:** Archives Layout does not support Multilingual Month Translations.
@@ -137,15 +136,15 @@ add following to config file
 
 ```yml
 params:
-    homeInfoParams:
-        Title: Hi there wave
-        Content: Can be Info, links, about...
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
 
-    socialIcons: # optional
-        - name: "<platform>"
-            url: "<link>"
-        - name: "<platform 2>"
-            url: "<link2>"
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
 ```
 
 ---
@@ -158,63 +157,61 @@ Shows Index/Home page as Full Page with Social Links and Image
 
 add following to config file
 
-```yml
+```yml {linenos=true}
 params:
-    profileMode:
-        enabled: true
-        title: "<Title>" # optional default will be site title
-        subtitle: "This is subtitle"
-        imageUrl: "<image link>" # optional
-        imageTitle: "<title of image as alt>" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
-        buttons:
-            - name: Archive
-            url: "/archive"
-            - name: Github
-            url: "https://github.com/"
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "This is subtitle"
+    imageUrl: "<image link>" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
 
-    socialIcons: # optional
-        - name: "<platform>"
-            url: "<link>"
-        - name: "<platform 2>"
-            url: "<link2>"
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
 ```
 
 ---
 
 ### Search Page
 
-PaperMod uses [Fuse.js Basic](https://fusejs.io/getting-started/different-builds.html#explanation-of-different-builds) for seach functionality
+PaperMod uses [Fuse.js Basic](https://fusejs.io/getting-started/different-builds.html#explanation-of-different-builds) for search functionality
 
 Add the following to site config, `config.yml`
 
-```yml
+```yml {linenos=true,hl_lines=[5]}
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
 ```
 
 Create a page with `search.md` in `content` directory with following content
 
-```yml
+```yml {linenos=true,hl_lines=[3]}
 ---
 title: "Search" # in any language you want
-layout: "search" # is necessary
+layout: "search" # necessary for search
 # url: "/archive"
 # description: "Description for Search"
 summary: "search"
 placeholder: "placeholder text in search input box"
 ---
-
 ```
 
-To hide a particular page from being searched, add it in post's fron't matter
+To hide a particular page from being searched, add it in post's frontmatter
 
-```yml
----
+```yml {linenos=true}
 searchHidden: true
 ```
 
@@ -222,9 +219,9 @@ ex: [search.md](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/ex
 
 > Search Page also has Key bindings:
 >
-> -   Arrow keys to move up/down the list
-> -   Enter key (return) or Right Arrow key to Go to highlighted page
-> -   Escape key to clear searchbox and results
+> - Arrow keys to move up/down the list
+> - Enter key (return) or Right Arrow key to go to the highlighted page
+> - Escape key to clear searchbox and results
 
 For Multilingual use `search.<lang>.md` ex. `search.es.md`.
 
@@ -234,16 +231,17 @@ For Multilingual use `search.<lang>.md` ex. `search.es.md`.
 
 Refer https://fusejs.io/api/options.html for Options, Add those as shown below.
 
-```yml
+```yml {linenos=true}
 params:
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
 ```
 
 ---
@@ -258,32 +256,32 @@ adds `[draft]` mark to indicate draft pages.
 
 In post's page-variables add :
 
-```yml
+```yml {linenos=true}
 cover:
-    image: "<image path/url>"
-    # can also paste direct link from external site
-    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "<alt text>"
-    caption: "<text>"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
+  image: "<image path/url>"
+  # can also paste direct link from external site
+  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+  alt: "<alt text>"
+  caption: "<text>"
+  relative: false # To use relative path for cover image, used in hugo Page-bundles
 ```
 
 When you include images in the [Page Bundle](https://gohugo.io/content-management/page-bundles/), multiple sizes of the image will automatically be provided using the HTML5 `srcset` field.
 
 To reduce generation time and size of the site, you can disable this feature using
 
-```yml
+```yml {linenos=true}
 params:
-    cover:
-        responsiveImages: false
+  cover:
+    responsiveImages: false
 ```
 
 To enable hyperlinks to the full image size on post pages, use
 
-```yml
+```yml {linenos=true}
 params:
-    cover:
-        linkFullImages: true
+  cover:
+    linkFullImages: true
 ```
 
 ---
@@ -296,7 +294,7 @@ to show share buttons add
 
 ```yml
 params:
-    ShowShareButtons: true
+  ShowShareButtons: true
 ```
 
 ---
@@ -309,7 +307,7 @@ To show reading time add
 
 ```yml
 Params:
-    ShowReadingTime: true
+  ShowReadingTime: true
 ```
 
 ---
@@ -338,16 +336,15 @@ Adds BreadCrumb Navigation above Post's Title to show subsections and Navigation
 
 ```yml
 params:
-    ShowBreadCrumbs: true
+  ShowBreadCrumbs: true
 ```
 
-Can be disabled for particular page's front-matter
+Can be diabled for particular page's front-matter
 
 ```yml
 ---
 ShowBreadCrumbs: false
 ---
-
 ```
 
 ---
@@ -360,10 +357,10 @@ For site config use:
 
 ```yml
 Params:
-    editPost:
-        URL: "https://github.com/<gitlab user>/<repo name>/tree/<branch name>/<path to content>/"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ```
 
 Can be modified for individual pages
@@ -371,21 +368,20 @@ Can be modified for individual pages
 ```yml
 ---
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  URL: "https://github.com/<path_to_repo>/content"
+  Text: "Suggest Changes" # edit text
+  appendFilePath: true # to append file path to Edit link
 ---
-
 ```
 
 The example above would yield the following link for the post file `posts/post-name.md`:
-https://github.com/<path_to_repo>/content/posts/post-name.md
+`https://github.com/<path_to_repo>/content/posts/post-name.md`
 
-| Parameter               | Required | Default Value |
-| ----------------------- | -------- | ------------- |
-| editPost.URL            | true     | -             |
-| editPost.appendFilePath | false    | false         |
-| editPost.Text           | false    | "Edit"        |
+| Parameter                 | Required | Default Value |
+| ------------------------- | -------- | ------------- |
+| `editPost.URL`            | true     | -             |
+| `editPost.appendFilePath` | false    | `false`       |
+| `editPost.Text`           | false    | `Edit`        |
 
 Since the link generated is a regular HTML anchor tag `<a href=...>`, you can
 also use other URL schemas like `mailto://`, e.g.
@@ -399,7 +395,7 @@ Adds a Previous / Next post suggestion under a single post
 
 ```yml
 params:
-    ShowPostNavLinks: true
+  ShowPostNavLinks: true
 ```
 
 ---
@@ -410,7 +406,7 @@ Adds a `copy` button in code block to copy the code it contains
 
 ```yml
 params:
-    ShowCodeCopyButtons: true
+  ShowCodeCopyButtons: true
 ```
 
 ---
@@ -423,14 +419,13 @@ To Use multiple authors for a post, in post-variables:
 ---
 author: ["Me", "You"]
 ---
-
 ```
 
 To use Multiple Authors Site-wide, in `config.yml`:
 
 ```yml
 params:
-    author: ["Me", "You"]
+  author: ["Me", "You"]
 ```
 
 ---
@@ -447,7 +442,7 @@ also in config add this
 
 ```yml
 params:
-    comments: true
+  comments: true
 ```
 
 read more about this [hugo-comments](https://gohugo.io/content-management/comments/)
@@ -472,11 +467,50 @@ t - Theme toggle
 
 **Enabled only when `env: production`**
 
--   [Rich Results/Snippets Support](https://support.google.com/webmasters/answer/7506797?hl=en)
+- [Rich Results/Snippets Support](https://support.google.com/webmasters/answer/7506797?hl=en)
 
--   Twitter Cards Support
+#### Twitter Cards Support
 
--   Open-Graph support
+- The Twitter Cards metadata, except `twitter:image` should not require
+  additional configuration, since it is generated from metadata that
+  you should already have (for instance the page title and description).
+- The `twitter:image` uses the [Post Cover Image](#post-cover-image), if present.
+- In the absence of a cover images, the first image from the `images`
+  frontmatter (a list) is used.
+  ```yaml
+  images:
+    - image_01.png
+    - image_02.png
+  ```
+- Finally, if neither of those are provided, `twitter:image` comes from the first
+  [Page Bundle](https://gohugo.io/content-management/page-bundles/)
+  image with `feature` in the name, with a fallback to the first image with
+  `cover` or `thumbnail` in the name.
+
+#### OpenGraph support
+
+- The OpenGraph metadata, except `og:image` should not require
+  additional configuration, since it is generated from metadata that
+  you should already have (for instance the page title and description).
+- The `og:image` uses the [Post Cover Image](#post-cover-image), if present.
+- In the absence of a cover images, the first image from the `images`
+  frontmatter (a list) is used.
+  ```yaml
+  images:
+    - image_01.png
+    - image_02.png
+  ```
+- Finally, if neither of those are provided, `og:image` comes from the first
+  [Page Bundle](https://gohugo.io/content-management/page-bundles/)
+  image with `feature` in the name, with a fallback to the first image with
+  `cover` or `thumbnail` in the name.
+- For pages, you can also add audio (using frontmatter `audio: filename.ext`) and/or
+  videos.
+  ```yaml
+  videos:
+    - filename01.mov
+    - filename02.avi
+  ```
 
 ---
 

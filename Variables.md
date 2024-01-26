@@ -32,14 +32,14 @@
 | `tocopen`                              | boolean       | true \| false             | To keep open ToC by default on page load                                                  |
 | `ShowPostNavLinks`                     | boolean       | true \| false             | Show Previous and Next Posts below a Post                                                 |
 | `ShowBreadCrumbs`                      | boolean       | true \| false             | Show BreadCrumb Navigation above single post/page                                         |
-| `ShareButtons`                         | list          | ["linkedin", "twitter"]   | To customize which share buttons to be enabled on page                                    |
+| `ShareButtons`                         | list          | ["linkedin", "x"]         | To customize which share buttons to be enabled on page                                    |
 | `ShowWordCount`                        | boolean       | true \| false             | To word count to metadata                                                                 |
 | `ShowRssButtonInSectionTermList`       | boolean       | true \| false             | To show RSS icon in Section, Term and List pages                                          |
 | `UseHugoToc`                           | boolean       | true \| false             | To use Hugo's default Toc instead of custom                                               |
 | `comments`                             | boolean       | true \| false             | To show/hide comments                                                                     |
 | `hideFooter`                           | boolean       | true \| false             | To Hide Footer Text om the end of page                                                    |
 | `CanonicalLinkText`                    | string        | 'Originally published at' | To show text before canonical URL's hostname                                              |
-| `displayFullLangName`                  | boolean       | true \| false             | To show `languageName` under a language in Language switch header                                            |
+| `displayFullLangName`                  | boolean       | true \| false             | To show `languageName` under a language in Language switch header                         |
 | `analytics.google.SiteVerificationTag` | string        | "XYZabc"                  | Site Verification Tag for Google Analytics                                                |
 | `analytics.bing.SiteVerificationTag`   | string        | "XYZabc"                  | Site Verification Tag for Bing                                                            |
 | `analytics.yandex.SiteVerificationTag` | string        | "XYZabc"                  | Site Verification Tag for Yandex                                                          |
@@ -128,6 +128,7 @@ fuseOpts:
   distance: 1000
   threshold: 0.4
   minMatchCharLength: 0
+  limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
   keys: ["title", "permalink", "summary", "content"] ##  can be less but not more than shown in list
 ```
 
@@ -135,12 +136,10 @@ fuseOpts:
 
 ```yml
 socialIcons:
-    - name: "<platform>"
-      title: "<custom title>"
-      url: "<link>"
-    - name: "<platform 2>"
-      title: "<custom title 2>"
-      url: "<link2>"
+  - name: "<platform>"
+    url: "<link>"
+  - name: "<platform 2>"
+    url: "<link2>"
 ```
 
 #### editPost
@@ -185,7 +184,7 @@ editPost:
 | `cover.responsiveImages`         | boolean       | true \| false                   | To enable/disable generation of responsive cover images                             |
 | `cover.hidden`                   | boolean       | true \| false                   | To hide on current single page                                                      |
 | `weight `                        | integer       | 5                               | To set page order or to pin a post to Top of list                                   |
-| `ShareButtons`                   | list          | ["linkedin", "twitter"]         | To customize which share buttons to be enabled on page                              |
+| `ShareButtons`                   | list          | ["linkedin", "x"]               | To customize which share buttons to be enabled on page                              |
 | `ShowWordCount`                  | boolean       | true \| false                   | To word count to metadata                                                           |
 | `ShowRssButtonInSectionTermList` | boolean       | true \| false                   | To show RSS icon in Section, Term and List pages                                    |
 | `UseHugoToc`                     | boolean       | true \| false                   | To use Hugo's default Toc instead of custom                                         |

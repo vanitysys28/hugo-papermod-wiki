@@ -1,7 +1,6 @@
 # Welcome to the PaperMod's wiki!
 
-Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper).
-The goal of this project is add more Features and customization to the og theme.
+> Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper).
 
 The [demo site](https://adityatelange.github.io/hugo-PaperMod/) includes a lot of documentation about Installation, Features with few more stuff. Make sure you visit it, to get the awesome hands-on experience and get known about the features ...
 
@@ -15,16 +14,16 @@ ExampleSite can be found here: [exampleSite](https://github.com/adityatelange/hu
 
 ## Quick Links
 
-- ### [Install / Update](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
+- [Install / Update](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
 
-- ### [Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
+- [Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
 
-- ### [Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)
+- [Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)
 
-- ### [FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)
+- [FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)
 
-- ### [Variables](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables)
+- [Variables](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables)
 
-- ### [Translations](https://github.com/adityatelange/hugo-PaperMod/wiki/Translations)
+- [Translations](https://github.com/adityatelange/hugo-PaperMod/wiki/Translations)
 
-- ### [ChangeLog](https://github.com/adityatelange/hugo-PaperMod/wiki/ChangeLog)
+- [ChangeLog](https://github.com/adityatelange/hugo-PaperMod/wiki/ChangeLog)

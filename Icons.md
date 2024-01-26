@@ -9,7 +9,7 @@
 | --------------- | ------------------------------- |
 | `123rf`         | 123rf.com                       |
 | `adobestock`    | stock.adobe.com                 |
-| `applemusic`   | music.apple.com                 |
+| `applemusic`    | music.apple.com                 |
 | `behance`       | behance.net                     |
 | `bilibili`      | bilibili.com                    |
 | `bitcoin`       | -                               |
@@ -74,10 +74,11 @@
 | `steam`         | steampowered.com                |
 | `strava`        | strava.com                      |
 | `telegram`      | telegram.org                    |
-| `tiktok`         | tiktok.com                      |
+| `tiktok`        | tiktok.com                      |
 | `twitch`        | twitch.tv                       |
 | `twitter`       | twitter.com                     |
 | `unsplash`      | unsplash.com                    |
+| `x`             | x.com                           |
 | `xda`           | xda-developers.com              |
 | `xing`          | xing.com                        |
 | `ycombinator`   | ycombinator.com                 |
@@ -86,28 +87,26 @@
 
 Usage :
 
-```
+```yml {linenos=true}
 socialIcons:
   - name: "kofi"
-    title: "<custom title>"
     url: "https://kofi.com"
-  - name: "twitter"
-    title: "<custom title>"
-    url: "https://twitter.com"
+  - name: "x"
+    url: "https://x.com"
 ```
 
 ---
 
 ## Share Icons
 
-| Platform                                                        |
-| --------------------------------------------------------------- |
-| `twitter` (also generates hash tags from tags linked with post) |
-| `linkedin`                                                      |
-| `reddit`                                                        |
-| `facebook`                                                      |
-| `whatsapp`                                                      |
-| `telegram`                                                      |
+| Platform                                                            |
+| ------------------------------------------------------------------- |
+| `x` (also generates `#hashtags` from _tags_ linked with post) |
+| `linkedin`                                                          |
+| `reddit`                                                            |
+| `facebook`                                                          |
+| `whatsapp`                                                          |
+| `telegram`                                                          |
 
 Usage:
 
