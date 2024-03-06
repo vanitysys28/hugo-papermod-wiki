@@ -169,15 +169,19 @@ You can go through few videos which are available on YouTube for getting to know
 
 ## Quick Links
 
-- ### [Papermod - Features](../papermod-features)
+- [Install / Update PaperMod](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
 
-- ### [Papermod - FAQs](../papermod-how-to)
+- [Features / Mods](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
 
-- ### [Papermod - Variables](../papermod-variables)
+- [FAQs / How To's Guide](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)
 
-- ### [Papermod - Icons](../papermod-icons)
+- [Social-Icons / Share-Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)
 
-- ### [ChangeLog](https://github.com/adityatelange/hugo-PaperMod/releases)
+- [Variables | Front Matter](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables)
+
+- [Translations](https://github.com/adityatelange/hugo-PaperMod/wiki/Translations)
+
+- [ChangeLog](https://github.com/adityatelange/hugo-PaperMod/wiki/ChangeLog)
 
 ---
 
