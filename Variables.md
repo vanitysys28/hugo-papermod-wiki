@@ -15,7 +15,7 @@
 | `author`                               | string \|list | 'Me' \| ['Me','You']      | To show multiple Authors                                                                  |
 | `images`                               | string        | 'myimage.png'             | Link or path of image for opengraph, twitter-cards                                        |
 | `keywords`                             | list          | [blog, page]              | Add keywords for Home page                                                                |
-| `DateFormat`                           | string        | "January 2, 2006"         | The format of date strings in the website. [Details](https://gohugo.io/functions/format/) |
+| `DateFormat`                           | string        | "January 2, 2006"         | The format of date strings in the website. [Details](https://gohugo.io/functions/time/format/) |
 | `languageAltTitle`                     | string        | "English"                 | Alternate title in Multilingual Mode                                                      |
 | `ShowReadingTime`                      | boolean       | true \| false             | To show read time in post meta                                                            |
 | `ShowShareButtons`                     | boolean       | true \| false             | To show/hide share buttons under post                                                     |
