@@ -94,7 +94,7 @@ Create a page with `archive.md` in `content` directory with following content
 
 ```shell
 .
-├── config.yml
+├── hugo.yml
 ├── content/
 │   ├── archives.md   <--- Create archive.md here
 │   └── posts/
@@ -186,7 +186,7 @@ params:
 
 PaperMod uses [Fuse.js Basic](https://fusejs.io/getting-started/different-builds.html#explanation-of-different-builds) for search functionality
 
-Add the following to site config, `config.yml`
+Add the following to site config, `hugo.yml`
 
 ```yml {linenos=true,hl_lines=[5]}
 outputs:
@@ -421,7 +421,7 @@ author: ["Me", "You"]
 ---
 ```
 
-To use Multiple Authors Site-wide, in `config.yml`:
+To use Multiple Authors Site-wide, in `hugo.yml`:
 
 ```yml
 params:
